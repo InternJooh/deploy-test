@@ -11,14 +11,21 @@ export default function SearchBarWrapper() {
   const [searchText, setSearchText] = useState('');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const modalRef = useRef(null);
-  const [searchList, setSearchList] = useState(JSON.parse(
-    <BrowserOnly>
-      {localStorage.getItem('searchList')}
-    </BrowserOnly>)|| []);
-  const [favoriteList, setFavoriteList] = useState(JSON.parse(
-    <BrowserOnly>
-      {localStorage.getItem('favoriteList')}
-    </BrowserOnly>) || []);
+  const [searchList, setSearchList] = useState([]);
+  const [favoriteList, setFavoriteList] = useState([]);
+
+  useEffect(() => {
+    // Use useEffect to set the initial state based on the browser environment
+    const initializeState = () => {
+      const storedSearchList = localStorage.getItem('searchList');
+      const storedFavoriteList = localStorage.getItem('favoriteList');
+
+      // Check if localStorage is available (in the browser)
+      if (storedSearchList && storedFavoriteList) {
+        setSearchList(JSON.parse(storedSearchList) || []);
+        setFavoriteList(JSON.parse(storedFavoriteList) || []);
+      }
+    };
 
   useEffect(() => {
     const handleKeyPress = (event) => {
