@@ -1,0 +1,6197 @@
+{
+  "2": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your docs now have 2 versions:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "5": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "fileName": "intro",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Tutorial": [
+    {
+      "type": "page",
+      "fileName": "intro",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Intro": [
+    {
+      "type": "page",
+      "fileName": "intro",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Let's": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "fileName": "intro",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "discover": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "fileName": "intro",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "**Docusaurus": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "fileName": "intro",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "in": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "fileName": "intro",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is also possible to create your sidebar explicitly in `sidebars.js`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The static files are generated in the `build` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The docs version dropdown appears in your navbar:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is possible to edit versioned docs in their respective folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Translate a doc",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The locale dropdown now appears in your navbar:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "less": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "fileName": "intro",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "than": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "fileName": "intro",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "minutes**.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "fileName": "intro",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Shall": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "fileName": "intro",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "we?": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "fileName": "intro",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Getting": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Started": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Get": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Get started by **creating a new site**.",
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "started": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Get started by **creating a new site**.",
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "by": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Get started by **creating a new site**.",
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "**creating": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Get started by **creating a new site**.",
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "a": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Get started by **creating a new site**.",
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 7,
+      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "page",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a file at `blog/2021-02-28-greetings.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "page",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a Markdown file at `docs/hello.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "page",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a file at `src/pages/my-react-page.js`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a file at `src/pages/my-markdown-page.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Release a version 1.0 of your project:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across versions, add a version dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Translate a doc",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "In development, you can only use one locale at a time.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across languages, add a locale dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Build your site for a specific locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "new": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Get started by **creating a new site**.",
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "site**.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Get started by **creating a new site**.",
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Or": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.",
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or build your site to include all the locales at once:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "**try": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.",
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Docusaurus": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.",
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 4,
+      "text": "Docusaurus has **much more to offer**!",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "immediately**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.",
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "with": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.",
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "**[docusaurus.new](https://docusaurus.new)**.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.",
+      "fileName": "intro",
+      "heading": "Getting Started",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "What": [
+    {
+      "type": "heading",
+      "depth": 3,
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "you'll": [
+    {
+      "type": "heading",
+      "depth": 3,
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "need": [
+    {
+      "type": "heading",
+      "depth": 3,
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The command also installs all necessary dependencies you need to run Docusaurus.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "[Node.js](https://nodejs.org/en/download/)": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "[Node.js](https://nodejs.org/en/download/) version 18.0 or above:",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "version": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "[Node.js](https://nodejs.org/en/download/) version 18.0 or above:",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Release a version 1.0 of your project:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "To navigate seamlessly across versions, add a version dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "18.0": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "[Node.js](https://nodejs.org/en/download/) version 18.0 or above:",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "or": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "[Node.js](https://nodejs.org/en/download/) version 18.0 or above:",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "above:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "[Node.js](https://nodejs.org/en/download/) version 18.0 or above:",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "When": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "When installing Node.js, you are recommended to check all checkboxes related to dependencies.",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "installing": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "When installing Node.js, you are recommended to check all checkboxes related to dependencies.",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Node.js,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "When installing Node.js, you are recommended to check all checkboxes related to dependencies.",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "you": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "When installing Node.js, you are recommended to check all checkboxes related to dependencies.",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "The classic template will automatically be added to your project after you run the command:",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "In development, you can only use one locale at a time.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "are": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "When installing Node.js, you are recommended to check all checkboxes related to dependencies.",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Documents are **groups of pages** connected through:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The static files are generated in the `build` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "recommended": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "When installing Node.js, you are recommended to check all checkboxes related to dependencies.",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "to": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "When installing Node.js, you are recommended to check all checkboxes related to dependencies.",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "The classic template will automatically be added to your project after you run the command:",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 3,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 5,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Add metadata to customize the sidebar label and position:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is possible to edit versioned docs in their respective folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify `docusaurus.config.js` to add support for the `fr` locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Configure i18n",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Copy the `docs/intro.md` file to the `i18n/fr` folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Translate a doc",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or build your site to include all the locales at once:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "check": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "When installing Node.js, you are recommended to check all checkboxes related to dependencies.",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "all": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "When installing Node.js, you are recommended to check all checkboxes related to dependencies.",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The command also installs all necessary dependencies you need to run Docusaurus.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or build your site to include all the locales at once:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "checkboxes": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "When installing Node.js, you are recommended to check all checkboxes related to dependencies.",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "related": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "When installing Node.js, you are recommended to check all checkboxes related to dependencies.",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "dependencies.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "When installing Node.js, you are recommended to check all checkboxes related to dependencies.",
+      "fileName": "intro",
+      "heading": "What you'll need",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Generate": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "site": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "page",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Build your site **for production**:",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "page",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Start your site on the French locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Build your site for a specific locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "using": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "the": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 4,
+      "text": "Run the development server:",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 3,
+      "text": "Read the [official documentation](https://docusaurus.io/)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The static files are generated in the `build` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "`1.0` at `http://localhost:3000/docs/` for the version 1.0 docs",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify the `docusaurus.config.js` file:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify `docusaurus.config.js` to add support for the `fr` locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Configure i18n",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Copy the `docs/intro.md` file to the `i18n/fr` folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Translate a doc",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Start your site on the French locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify the `docusaurus.config.js` file:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or build your site to include all the locales at once:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "**classic": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "template**.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "The": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "The classic template will automatically be added to your project after you run the command:",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The static files are generated in the `build` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The docs version dropdown appears in your navbar:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The locale dropdown now appears in your navbar:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "classic": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The classic template will automatically be added to your project after you run the command:",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "template": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The classic template will automatically be added to your project after you run the command:",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "will": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The classic template will automatically be added to your project after you run the command:",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "automatically": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The classic template will automatically be added to your project after you run the command:",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "be": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The classic template will automatically be added to your project after you run the command:",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "added": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The classic template will automatically be added to your project after you run the command:",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "your": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "The classic template will automatically be added to your project after you run the command:",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 3,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is also possible to create your sidebar explicitly in `sidebars.js`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "page",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Build your site **for production**:",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Test your production build locally:",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Release a version 1.0 of your project:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The docs version dropdown appears in your navbar:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "page",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Start your site on the French locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The locale dropdown now appears in your navbar:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Build your site for a specific locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "project": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The classic template will automatically be added to your project after you run the command:",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "after": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The classic template will automatically be added to your project after you run the command:",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "run": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "The classic template will automatically be added to your project after you run the command:",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "command:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The classic template will automatically be added to your project after you run the command:",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "You": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "can": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus can manage multiple versions of your docs.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "In development, you can only use one locale at a time.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "type": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "this": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "command": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "into": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "Command": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Prompt,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Powershell,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Terminal,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "any": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "other": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "integrated": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "terminal": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "of": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 3,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Release a version 1.0 of your project:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "code": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "editor.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "also": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The command also installs all necessary dependencies you need to run Docusaurus.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is also possible to create your sidebar explicitly in `sidebars.js`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "installs": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The command also installs all necessary dependencies you need to run Docusaurus.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "necessary": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The command also installs all necessary dependencies you need to run Docusaurus.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "dependencies": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The command also installs all necessary dependencies you need to run Docusaurus.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Docusaurus.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The command also installs all necessary dependencies you need to run Docusaurus.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Start": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Start your site on the French locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "Run": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Run the development server:",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "development": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Run the development server:",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "server:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Run the development server:",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "`cd`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "changes": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "directory": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "you're": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "working": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "with.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "In": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "In development, you can only use one locale at a time.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "order": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "work": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "newly": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "created": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "site,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "navigate": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across versions, add a version dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across languages, add a locale dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "there.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "`npm": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "start`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "builds": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "website": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "locally": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "and": [
+    {
+      "type": "content",
+      "frequency": 3,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 3,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add metadata to customize the sidebar label and position:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "serves": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "it": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "through": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "server,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "ready": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "for": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "`1.0` at `http://localhost:3000/docs/` for the version 1.0 docs",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify `docusaurus.config.js` to add support for the `fr` locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Configure i18n",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Build your site for a specific locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "view": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "at": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Create a file at `blog/2021-02-28-greetings.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Create a Markdown file at `docs/hello.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Create a file at `src/pages/my-react-page.js`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Create a file at `src/pages/my-markdown-page.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "`1.0` at `http://localhost:3000/docs/` for the version 1.0 docs",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or build your site to include all the locales at once:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "http://localhost:3000/.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Open": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "`docs/intro.md`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Let's translate `docs/intro.md` to French.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Copy the `docs/intro.md` file to the `i18n/fr` folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Translate a doc",
+      "pageName": "Translate your site"
+    }
+  ],
+  "(this": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "page)": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "edit": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is possible to edit versioned docs in their respective folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "some": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "lines:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "**reloads": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "automatically**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "displays": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "changes.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    }
+  ],
+  "Congratulations!": [
+    {
+      "type": "page",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "have": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your docs now have 2 versions:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "just": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "learned": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "**basics": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "Docusaurus**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "made": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "**initial": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "has": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus has **much more to offer**!",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "**much": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus has **much more to offer**!",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "more": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Docusaurus has **much more to offer**!",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "offer**!": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus has **much more to offer**!",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "Have": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "**5": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "minutes**?": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "Take": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "look": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "**[versioning](../tutorial-extras/manage-docs-versions.md)**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "**[i18n](../tutorial-extras/translate-your-site.md)**.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "Anything": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "**unclear**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "**buggy**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "tutorial?": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "[Please": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "report": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "it!](https://github.com/facebook/docusaurus/discussions/4610)": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "What's": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "next?": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "Read": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Read the [official documentation](https://docusaurus.io/)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "[official": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Read the [official documentation](https://docusaurus.io/)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "documentation](https://docusaurus.io/)": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Read the [official documentation](https://docusaurus.io/)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "Modify": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify the `docusaurus.config.js` file:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify `docusaurus.config.js` to add support for the `fr` locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Configure i18n",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify the `docusaurus.config.js` file:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "configuration": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "[`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "Add": [
+    {
+      "type": "content",
+      "frequency": 3,
+      "text": "Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add metadata to customize the sidebar label and position:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "navbar": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "footer": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "items": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "[`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "custom": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "[Design": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "Layout](https://docusaurus.io/docs/styling-layout)": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "[search": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add a [search bar](https://docusaurus.io/docs/search)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "bar](https://docusaurus.io/docs/search)": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add a [search bar](https://docusaurus.io/docs/search)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "Find": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "inspirations": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "[Docusaurus": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "showcase](https://docusaurus.io/showcase)": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "involved": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "Community](https://docusaurus.io/community/support)": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    }
+  ],
+  "Create": [
+    {
+      "type": "page",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a file at `blog/2021-02-28-greetings.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "page",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a Markdown file at `docs/hello.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "page",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a file at `src/pages/my-react-page.js`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a file at `src/pages/my-markdown-page.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "Blog": [
+    {
+      "type": "page",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "Post": [
+    {
+      "type": "page",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "creates": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "**page": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "each": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "blog": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "post**,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "but": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "**blog": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "index": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "page**,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "**tag": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "system**,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "an": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "**RSS**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "feed...": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "first": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "file": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a file at `blog/2021-02-28-greetings.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a Markdown file at `docs/hello.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a file at `src/pages/my-react-page.js`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a file at `src/pages/my-markdown-page.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Copy the `docs/intro.md` file to the `i18n/fr` folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Translate a doc",
+      "pageName": "Translate your site"
+    }
+  ],
+  "`blog/2021-02-28-greetings.md`:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a file at `blog/2021-02-28-greetings.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "A": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "post": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "is": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is also possible to create your sidebar explicitly in `sidebars.js`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is possible to edit versioned docs in their respective folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "now": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your docs now have 2 versions:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The locale dropdown now appears in your navbar:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "available": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "[http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-blog-post",
+      "heading": "Create your first Post",
+      "pageName": "Create a Blog Post"
+    }
+  ],
+  "Document": [
+    {
+      "type": "page",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "pageName": "Create a Document"
+    }
+  ],
+  "Documents": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Documents are **groups of pages** connected through:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "pageName": "Create a Document"
+    }
+  ],
+  "**groups": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Documents are **groups of pages** connected through:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "pageName": "Create a Document"
+    }
+  ],
+  "pages**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Documents are **groups of pages** connected through:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "pageName": "Create a Document"
+    }
+  ],
+  "connected": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Documents are **groups of pages** connected through:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "pageName": "Create a Document"
+    }
+  ],
+  "through:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Documents are **groups of pages** connected through:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "pageName": "Create a Document"
+    }
+  ],
+  "**sidebar**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "a **sidebar**",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "pageName": "Create a Document"
+    }
+  ],
+  "**previous/next": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "**previous/next navigation**",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "pageName": "Create a Document"
+    }
+  ],
+  "navigation**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "**previous/next navigation**",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "pageName": "Create a Document"
+    }
+  ],
+  "**versioning**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "**versioning**",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "pageName": "Create a Document"
+    }
+  ],
+  "Doc": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    }
+  ],
+  "Markdown": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a Markdown file at `docs/hello.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "`docs/hello.md`:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a Markdown file at `docs/hello.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    }
+  ],
+  "document": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    }
+  ],
+  "[http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Create your first Doc",
+      "pageName": "Create a Document"
+    }
+  ],
+  "Configure": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Configure i18n",
+      "pageName": "Translate your site"
+    }
+  ],
+  "Sidebar": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "**creates": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "sidebar**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "from": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "`docs`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "folder.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The static files are generated in the `build` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "metadata": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add metadata to customize the sidebar label and position:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "customize": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add metadata to customize the sidebar label and position:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "sidebar": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Add metadata to customize the sidebar label and position:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "label": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add metadata to customize the sidebar label and position:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "position:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add metadata to customize the sidebar label and position:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "It": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is also possible to create your sidebar explicitly in `sidebars.js`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is possible to edit versioned docs in their respective folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "possible": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is also possible to create your sidebar explicitly in `sidebars.js`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is possible to edit versioned docs in their respective folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "create": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is also possible to create your sidebar explicitly in `sidebars.js`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "explicitly": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is also possible to create your sidebar explicitly in `sidebars.js`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "`sidebars.js`:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is also possible to create your sidebar explicitly in `sidebars.js`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "Page": [
+    {
+      "type": "page",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "**Markdown": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "React**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "files": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The static files are generated in the `build` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "`src/pages`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "**standalone": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "page**:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "`src/pages/index.js`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`src/pages/index.js` → `localhost:3000/`",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "→": [
+    {
+      "type": "content",
+      "frequency": 3,
+      "text": "`src/pages/index.js` → `localhost:3000/`",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "`localhost:3000/`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`src/pages/index.js` → `localhost:3000/`",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "`src/pages/foo.md`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`src/pages/foo.md` → `localhost:3000/foo`",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "`localhost:3000/foo`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`src/pages/foo.md` → `localhost:3000/foo`",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "`src/pages/foo/bar.js`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`src/pages/foo/bar.js` → `localhost:3000/foo/bar`",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "`localhost:3000/foo/bar`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`src/pages/foo/bar.js` → `localhost:3000/foo/bar`",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "React": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "`src/pages/my-react-page.js`:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a file at `src/pages/my-react-page.js`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "page": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "[http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "`src/pages/my-markdown-page.md`:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Create a file at `src/pages/my-markdown-page.md`:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "[http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    }
+  ],
+  "Deploy": [
+    {
+      "type": "page",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "**static-site-generator**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "(also": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "called": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "**[Jamstack](https://jamstack.org/)**).": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "as": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "simple": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "**static": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "HTML,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "JavaScript": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "CSS": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "files**.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "Build": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Build your site **for production**:",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Build your site for a specific locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "**for": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Build your site **for production**:",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "production**:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Build your site **for production**:",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "static": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The static files are generated in the `build` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "generated": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The static files are generated in the `build` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "`build`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The static files are generated in the `build` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "Test": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Test your production build locally:",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "production": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Test your production build locally:",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "build": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Test your production build locally:",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or build your site to include all the locales at once:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "locally:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Test your production build locally:",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "folder": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "served": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "[http://localhost:3000/](http://localhost:3000/).": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "deploy": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "**almost": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "anywhere**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "easily,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "free**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "very": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "small": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "cost": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "(read": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "**[Deployment": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "Guide](https://docusaurus.io/docs/deployment)**).": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
+    }
+  ],
+  "Manage": [
+    {
+      "type": "page",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "Docs": [
+    {
+      "type": "page",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "Versions": [
+    {
+      "type": "page",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "manage": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus can manage multiple versions of your docs.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "multiple": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus can manage multiple versions of your docs.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "versions": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus can manage multiple versions of your docs.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "docs.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus can manage multiple versions of your docs.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "docs": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Your docs now have 2 versions:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The docs version dropdown appears in your navbar:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is possible to edit versioned docs in their respective folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "Release": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Release a version 1.0 of your project:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "1.0": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Release a version 1.0 of your project:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "project:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Release a version 1.0 of your project:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "copied": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "`versioned_docs/version-1.0`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "`versions.json`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "created.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "Your": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your docs now have 2 versions:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "versions:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your docs now have 2 versions:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "`1.0`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`1.0` at `http://localhost:3000/docs/` for the version 1.0 docs",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "`http://localhost:3000/docs/`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`1.0` at `http://localhost:3000/docs/` for the version 1.0 docs",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "`current`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "`http://localhost:3000/docs/next/`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "**upcoming,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "unreleased": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "docs**": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Create a docs version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "Version": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "![Docs Version Dropdown](./img/docsVersionDropdown.png)",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "Dropdown": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "To": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across versions, add a version dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across languages, add a locale dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "seamlessly": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across versions, add a version dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across languages, add a locale dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "across": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across versions, add a version dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across languages, add a locale dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "versions,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across versions, add a version dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "add": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across versions, add a version dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify `docusaurus.config.js` to add support for the `fr` locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Configure i18n",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across languages, add a locale dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "dropdown.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across versions, add a version dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across languages, add a locale dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "`docusaurus.config.js`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify the `docusaurus.config.js` file:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify `docusaurus.config.js` to add support for the `fr` locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Configure i18n",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify the `docusaurus.config.js` file:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "file:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify the `docusaurus.config.js` file:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify the `docusaurus.config.js` file:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "dropdown": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The docs version dropdown appears in your navbar:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The locale dropdown now appears in your navbar:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "appears": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The docs version dropdown appears in your navbar:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The locale dropdown now appears in your navbar:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "navbar:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The docs version dropdown appears in your navbar:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The locale dropdown now appears in your navbar:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "![Docs": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "![Docs Version Dropdown](./img/docsVersionDropdown.png)",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "Dropdown](./img/docsVersionDropdown.png)": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "![Docs Version Dropdown](./img/docsVersionDropdown.png)",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Add a Version Dropdown",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "Update": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "existing": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "versioned": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is possible to edit versioned docs in their respective folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "their": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is possible to edit versioned docs in their respective folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "respective": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is possible to edit versioned docs in their respective folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "folder:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "It is possible to edit versioned docs in their respective folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Copy the `docs/intro.md` file to the `i18n/fr` folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Translate a doc",
+      "pageName": "Translate your site"
+    }
+  ],
+  "`versioned_docs/version-1.0/hello.md`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "updates": [
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "`versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "`http://localhost:3000/docs/hello`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "`docs/hello.md`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`docs/hello.md` updates `http://localhost:3000/docs/next/hello`",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "`http://localhost:3000/docs/next/hello`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "`docs/hello.md` updates `http://localhost:3000/docs/next/hello`",
+      "dirName": "tutorial-extras",
+      "fileName": "manage-docs-versions",
+      "heading": "Update an existing version",
+      "pageName": "Manage Docs Versions"
+    }
+  ],
+  "Translate": [
+    {
+      "type": "page",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Translate a doc",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Translate a doc",
+      "pageName": "Translate your site"
+    }
+  ],
+  "translate": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Let's translate `docs/intro.md` to French.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "French.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Let's translate `docs/intro.md` to French.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Translate a doc",
+      "pageName": "Translate your site"
+    }
+  ],
+  "i18n": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Configure i18n",
+      "pageName": "Translate your site"
+    }
+  ],
+  "support": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify `docusaurus.config.js` to add support for the `fr` locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Configure i18n",
+      "pageName": "Translate your site"
+    }
+  ],
+  "`fr`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify `docusaurus.config.js` to add support for the `fr` locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Configure i18n",
+      "pageName": "Translate your site"
+    }
+  ],
+  "locale:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Modify `docusaurus.config.js` to add support for the `fr` locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Configure i18n",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Start your site on the French locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Build your site for a specific locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "doc": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Translate a doc",
+      "pageName": "Translate your site"
+    }
+  ],
+  "Copy": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Copy the `docs/intro.md` file to the `i18n/fr` folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Translate a doc",
+      "pageName": "Translate your site"
+    }
+  ],
+  "`i18n/fr`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Copy the `docs/intro.md` file to the `i18n/fr` folder:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Translate a doc",
+      "pageName": "Translate your site"
+    }
+  ],
+  "`i18n/fr/docusaurus-plugin-content-docs/current/intro.md`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Translate a doc",
+      "pageName": "Translate your site"
+    }
+  ],
+  "localized": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "on": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Start your site on the French locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "French": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Start your site on the French locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "accessible": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "[http://localhost:3000/fr/](http://localhost:3000/fr/)": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "`Getting": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "Started`": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "translated.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  ":::caution": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": ":::caution",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "development,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "In development, you can only use one locale at a time.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "only": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "In development, you can only use one locale at a time.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "use": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "In development, you can only use one locale at a time.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "one": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "In development, you can only use one locale at a time.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "locale": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "In development, you can only use one locale at a time.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "To navigate seamlessly across languages, add a locale dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "time.": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "In development, you can only use one locale at a time.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  ":::": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": ":::",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "Locale": [
+    {
+      "type": "heading",
+      "depth": 2,
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "languages,": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "To navigate seamlessly across languages, add a locale dropdown.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "![Locale": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "![Locale Dropdown](./img/localeDropdown.png)",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "Dropdown](./img/localeDropdown.png)": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "![Locale Dropdown](./img/localeDropdown.png)",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Add a Locale Dropdown",
+      "pageName": "Translate your site"
+    }
+  ],
+  "specific": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Build your site for a specific locale:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "include": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or build your site to include all the locales at once:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "locales": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or build your site to include all the locales at once:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ],
+  "once:": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Or build your site to include all the locales at once:",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Build your localized site",
+      "pageName": "Translate your site"
+    }
+  ]
+}
