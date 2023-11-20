@@ -1,5 +1,6 @@
 // import SearchBar from '@theme-original/SearchBar';
 import React from 'react';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 import Hangul from 'hangul-js';
 import { useState, useRef, useEffect } from 'react';
 import Link from '@docusaurus/Link';
@@ -10,8 +11,14 @@ export default function SearchBarWrapper() {
   const [searchText, setSearchText] = useState('');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const modalRef = useRef(null);
-  const [searchList, setSearchList] = useState(JSON.parse(localStorage.getItem('searchList')) || []);
-  const [favoriteList, setFavoriteList] = useState(JSON.parse(localStorage.getItem('favoriteList')) || []);
+  const [searchList, setSearchList] = useState(JSON.parse(
+    <BrowserOnly>
+      {localStorage.getItem('searchList')}
+    </BrowserOnly>)|| []);
+  const [favoriteList, setFavoriteList] = useState(JSON.parse(
+    <BrowserOnly>
+      {localStorage.getItem('favoriteList')}
+    </BrowserOnly>) || []);
 
   useEffect(() => {
     const handleKeyPress = (event) => {
