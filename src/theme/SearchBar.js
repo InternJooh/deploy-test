@@ -391,7 +391,7 @@ function filterData(searchText, searchData) {
     if (!item.heading) {
 
     } else {
-      newHeading = item.heading.replace(/ /g, '-');
+      newHeading = item.heading.toLowerCase().replace(/ /g, '-');
     }
 
     const pathName = item.dirName ? `/docs/${item.dirName}/${item.fileName}#${newHeading}` : 
