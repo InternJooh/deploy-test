@@ -27,6 +27,9 @@ export default function SearchBarWrapper() {
       }
     };
 
+    initializeState();
+  }, []);
+
   useEffect(() => {
     const handleKeyPress = (event) => {
       if (event.key === 'Escape') {
