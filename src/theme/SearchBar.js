@@ -1,6 +1,5 @@
 // import SearchBar from '@theme-original/SearchBar';
-import React from 'react';
-import BrowserOnly from '@docusaurus/BrowserOnly';
+import React, { useLayoutEffect } from 'react';
 import Hangul from 'hangul-js';
 import { useState, useRef, useEffect } from 'react';
 import Link from '@docusaurus/Link';
@@ -10,9 +9,12 @@ import './styles.css';
 export default function SearchBarWrapper() {
   const [searchText, setSearchText] = useState('');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const modalRef = useRef(null);
   const [searchList, setSearchList] = useState([]);
   const [favoriteList, setFavoriteList] = useState([]);
+
+  const modalRef = useRef(null);
+  const recentRef = useRef(null);
+  const favoriteRef = useRef(null);
 
   useEffect(() => {
     // Use useEffect to set the initial state based on the browser environment
@@ -34,7 +36,7 @@ export default function SearchBarWrapper() {
     const handleKeyPress = (event) => {
       if (event.key === 'Escape') {
         setIsSearchOpen(false);
-      }
+      } 
     };
 
     window.addEventListener('keydown', handleKeyPress);
@@ -51,19 +53,36 @@ export default function SearchBarWrapper() {
         setSearchText('');
       } 
     }
+    
+    recentRef.current && (recentRef.current.scrollTop = 0)
+    favoriteRef.current && (favoriteRef.current.scrollTop = 0)
+
+    if (isSearchOpen) {
+      document.body.classList.add('dialog-open');
+      document.documentElement.classList.add('dialog-open');
+    } else {
+      document.body.classList.remove('dialog-open');
+      document.documentElement.classList.remove('dialog-open');
+    }
+
+    return () => {
+      document.body.classList.remove('dialog-open');
+      document.documentElement.classList.remove('dialog-open');
+    };
   }, [isSearchOpen])
 
   return (
     <>
       <button className='search-button' onClick={ () => setIsSearchOpen(true) }>검색</button>
-      <SearchModal favoriteList={favoriteList} setFavoriteList={setFavoriteList} searchList={searchList} setSearchList={setSearchList} searchText={searchText} setSearchText={setSearchText} isSearchOpen={isSearchOpen} setIsSearchOpen={setIsSearchOpen} modalRef={modalRef} onClose={() => setIsSearchOpen(false)} searchData={data} />
+      <SearchModal recentRef={recentRef} favoriteRef={favoriteRef} favoriteList={favoriteList} setFavoriteList={setFavoriteList} searchList={searchList} setSearchList={setSearchList} searchText={searchText} setSearchText={setSearchText} isSearchOpen={isSearchOpen} setIsSearchOpen={setIsSearchOpen} modalRef={modalRef} searchData={data} />
     </>
   );
 }
 
-function SearchModal({ favoriteList, setFavoriteList, searchList, setSearchList, isSearchOpen, searchText, setSearchText, setIsSearchOpen, modalRef, onClose, searchData }) {
+function SearchModal({ recentRef, favoriteRef, favoriteList, setFavoriteList, searchList, setSearchList, isSearchOpen, searchText, setSearchText, setIsSearchOpen, modalRef,  searchData }) {
   const filteredData = filterData(searchText, searchData);
   const resultsRef = useRef(null);
+  const inputRef = useRef(null);
 
   const handleInputChange = (e) => {
     setSearchText(e.target.value);
@@ -84,12 +103,13 @@ function SearchModal({ favoriteList, setFavoriteList, searchList, setSearchList,
           e.clientY > dialogDimensions.bottom
         ) {
           e.currentTarget.close()
-          onClose();
+          setIsSearchOpen(false);
           emptyInput();
         }
       }}> 
         <div className='input-div'>
           <input 
+            ref={inputRef}
             placeholder='검색'
             value={searchText}
             onChange={handleInputChange}
@@ -97,7 +117,7 @@ function SearchModal({ favoriteList, setFavoriteList, searchList, setSearchList,
         </div>
         <div ref={resultsRef} className='results-div'>
           {searchText === '' ? (
-            <SearchHistory favoriteList={favoriteList} setFavoriteList={setFavoriteList} searchList={searchList} setSearchList={setSearchList} isSearchOpen={isSearchOpen} setSearchText={setSearchText} setIsSearchOpen={setIsSearchOpen} modalRef={modalRef} />
+            <SearchHistory inputRef={inputRef} recentRef={recentRef} favoriteRef={favoriteRef} favoriteList={favoriteList} setFavoriteList={setFavoriteList} searchList={searchList} setSearchList={setSearchList} isSearchOpen={isSearchOpen} setSearchText={setSearchText} setIsSearchOpen={setIsSearchOpen} modalRef={modalRef} />
           ) : (
             <SearchResult favoriteList={favoriteList} searchList={searchList} setSearchList={setSearchList} isSearchOpen={isSearchOpen} setSearchText={setSearchText} setIsSearchOpen={setIsSearchOpen} modalRef={modalRef} searchText={searchText} data={filteredData} />
           )}
@@ -107,11 +127,86 @@ function SearchModal({ favoriteList, setFavoriteList, searchList, setSearchList,
   )
 }
 
-function SearchHistory({ favoriteList, setFavoriteList, searchList, setSearchList, setSearchText, isSearchOpen, setIsSearchOpen, modalRef }) {
+function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavoriteList, searchList, setSearchList, setSearchText, isSearchOpen, setIsSearchOpen, modalRef }) {
   const [lastHovered, setLastHovered] = useState(0);
   const [deletedIdx, setDeletedIdx] = useState(0);
   const [hoveredFavorite, setHoveredFavorite] = useState(-1);
   const [modifiedList, setModifiedList] = useState(null);
+
+  useEffect(() => {
+    const scrollDown = () => {
+      const totalLength = searchList.length + favoriteList.length;
+      const currentIndex = lastHovered + 1 === totalLength ? 0 : lastHovered + 1;
+
+      if (currentIndex < searchList.length) {
+        if (currentIndex === 0) {
+          recentRef.current.scrollTop = 0;
+        }
+        if ((currentIndex+1) * 60 - 240 > recentRef.current.scrollTop) {
+          recentRef.current.scrollBy(0, 60);
+        } else if (recentRef.current.scrollTop > currentIndex * 60) {
+          recentRef.current.scrollTop = currentIndex* 60;
+        }
+      } else {
+        if (currentIndex - searchList.length === 0) {
+          favoriteRef.current.scrollTop = 0;
+        }
+        if ((currentIndex+1 - searchList.length) * 60 - 240 > favoriteRef.current.scrollTop) {
+          favoriteRef.current.scrollBy(0, 60);
+        } else if (favoriteRef.current.scrollTop > (currentIndex - searchList.length) * 60) {
+          favoriteRef.current.scrollTop = (currentIndex - searchList.length) * 60;
+        }
+      }
+    }
+
+    const scrollUp = () => {
+      const lastIndex = searchList.length + favoriteList.length - 1;
+      const currentIndex = lastHovered - 1 < 0 ? lastIndex : lastHovered - 1;
+      if (currentIndex < searchList.length) {
+        if (currentIndex === searchList.length - 1) {
+          recentRef.current.scrollTop = recentRef.current.scrollHeight - recentRef.current.clientHeight;
+        }
+        if (currentIndex * 60 < recentRef.current.scrollTop) {
+          recentRef.current.scrollBy(0, -60);
+        } else if (recentRef.current.scrollTop + 240 < (currentIndex+1) * 60) {
+          recentRef.current.scrollTop = currentIndex* 60 - 180;
+        }
+      } else {
+        if (currentIndex - searchList.length === favoriteList.length - 1) {
+          favoriteRef.current.scrollTop = favoriteRef.current.scrollHeight - favoriteRef.current.clientHeight;
+        }
+        if ((currentIndex - searchList.length) * 60 < favoriteRef.current.scrollTop) {
+          favoriteRef.current.scrollBy(0, -60);
+        } else if (favoriteRef.current.scrollTop + 240 < (currentIndex - searchList.length +1) * 60) {
+          favoriteRef.current.scrollTop = (currentIndex - searchList.length)* 60 - 180;
+        }
+      }
+    }
+
+    const handleKeyPress = (event) => {
+      const totalLength = searchList.length + favoriteList.length;
+    
+      if (event.key === 'ArrowUp') {
+        setLastHovered((prevHovered) => (prevHovered - 1 + totalLength) % totalLength);
+        scrollUp();
+      } else if (event.key === 'ArrowDown') {
+        setLastHovered((prevHovered) => (prevHovered + 1) % totalLength);
+        scrollDown();
+      } else if (event.key === 'Enter') {
+
+      }
+    };
+  
+    window.addEventListener('keydown', handleKeyPress);
+  
+    return () => {
+      window.removeEventListener('keydown', handleKeyPress);
+    };
+  }, [searchList, favoriteList, lastHovered, setLastHovered]);
+
+  useEffect(() => {
+    setLastHovered(0);
+  }, [isSearchOpen]);
 
   const handleMouseEnter = (index) => {
     setLastHovered(index);
@@ -151,10 +246,6 @@ function SearchHistory({ favoriteList, setFavoriteList, searchList, setSearchLis
     }
   }, [searchList, favoriteList]);
 
-  useEffect(() => {
-    setLastHovered(0);
-  }, [isSearchOpen])
-
   const deleteHistory = (index, list, setList, storageKey) => {
     const updatedList = [...list];
     updatedList.splice(index, 1);
@@ -162,6 +253,8 @@ function SearchHistory({ favoriteList, setFavoriteList, searchList, setSearchLis
     localStorage.setItem(storageKey, JSON.stringify(updatedList));
     setList(updatedList);
     setModifiedList(storageKey); 
+
+    inputRef.current.focus();
   };
 
   const handleFavorite = (item, index) => {
@@ -188,9 +281,9 @@ function SearchHistory({ favoriteList, setFavoriteList, searchList, setSearchLis
       {searchList.length !== 0 && (
         <div>
           <h3>Recent</h3>
-          <ul className='history-container'>
+          <ul className='history-container' ref={recentRef}>
             {searchList.map((item, index) => (
-              <li key={item.pathName} className={index === lastHovered ? 'hovered' : ''} onMouseEnter={() => handleMouseEnter(index)}>
+              <li key={item.pathName} className={index === lastHovered ? 'hovered' : ''} onMouseMove={() => handleMouseEnter(index)}>
                 <Link to={item.pathName} onClick={() => handleSearchClick(favoriteList, searchList, setSearchList, setSearchText, setIsSearchOpen, modalRef, item)}>
                   {item.type === 'page' ? (
                     <div>{item.pageName}</div>
@@ -214,9 +307,9 @@ function SearchHistory({ favoriteList, setFavoriteList, searchList, setSearchLis
       {favoriteList.length !== 0 && (
         <div>
           <h3>Favorites</h3>
-          <ul className='history-container'>
+          <ul className='history-container' ref={favoriteRef}>
             {favoriteList.map((item, index) => (
-              <li key={item.pathName} className={index + searchList.length === lastHovered ? 'hovered' : ''} onMouseEnter={() => handleMouseEnter(index + searchList.length)}>
+              <li key={item.pathName} className={index + searchList.length === lastHovered ? 'hovered' : ''} onMouseMove={() => handleMouseEnter(index + searchList.length)}>
                 <span className='favorited'>&#9734;</span>
                 <Link to={item.pathName} onClick={() => closeModal(setSearchText, setIsSearchOpen, modalRef)}>
                   {item.type === 'page' ? (
@@ -243,52 +336,127 @@ function SearchHistory({ favoriteList, setFavoriteList, searchList, setSearchLis
 }
 
 function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, searchText, setSearchText, setIsSearchOpen, modalRef, data }) {
-  const [lastHovered, setLastHovered] = useState({
-    type: '',
-    index: -1
-  }); 
+  const pageData = data.pageData;
+  const headingData = data.headingData;
+  const contentData = data.contentData;
 
-  const handleMouseMove = (type, index) => {
-    setLastHovered({
-      type,
-      index
-    });
+  const pageRef = useRef(null);
+  const headingRef = useRef(null);
+  const contentRef = useRef(null);
+
+  const [lastHovered, setLastHovered] = useState(0);
+
+  const handleMouseMove = (index) => {
+    setLastHovered(index);
   }
 
-  useEffect(() => {
-    setLastHovered({ type: '', index: -1 });
-  }, [isSearchOpen, searchText])
-
-  if (lastHovered.type === '') {
-    if (data.pageData.length > 0) {
-      setLastHovered({ type: 'page', index: 0 });
-    } else if (data.headingData.length > 0) {
-      setLastHovered({ type: 'heading', index: 0 });
-    } else if (data.contentData.length > 0) {
-      setLastHovered({ type: 'content', index: 0 });
+  const scrollDown = () => {
+    const totalLength = pageData.length + headingData.length + contentData.length;
+    const currentIndex = lastHovered + 1 === totalLength ? 0 : lastHovered + 1;
+    if (currentIndex < pageData.length) {
+      if (currentIndex === 0) {
+        pageRef.current.scrollTop = 0;
+      }
+      if ((currentIndex+1) * 60 - 240 > pageRef.current.scrollTop) {
+        pageRef.current.scrollBy(0, 60);
+      }
+    } else if (currentIndex < pageData.length + headingData.length) {
+      if (currentIndex - pageData.length === 0) {
+        headingRef.current.scrollTop = 0;
+      }
+      if ((currentIndex+1 - pageData.length) * 60 - 240 > headingRef.current.scrollTop) {
+        headingRef.current.scrollBy(0, 60);
+      }
+    } else {
+      if (currentIndex - pageData.length - headingData.length === 0) {
+        contentRef.current.scrollTop = 0;
+      }
+      if ((currentIndex+1 - pageData.length - headingData.length) * 60 - 240 > contentRef.current.scrollTop) {
+        contentRef.current.scrollBy(0, 60);
+      }
     }
   }
 
+  const scrollUp = () => {
+    const lastIndex = pageData.length + headingData.length + contentData.length - 1;
+
+    const currentIndex = lastHovered - 1 < 0 ? lastIndex : lastHovered - 1;
+    if (currentIndex < pageData.length) {
+      if (currentIndex === pageData.length - 1) {
+        pageRef.current.scrollTop = pageRef.current.scrollHeight - pageRef.current.clientHeight;
+      }
+      if (currentIndex * 60 < pageRef.current.scrollTop) {
+        pageRef.current.scrollBy(0, -60);
+      }
+    } else if (currentIndex < pageData.length + headingData.length) {
+      if (currentIndex - pageData.length === headingData.length - 1) {
+        headingRef.current.scrollTop = headingRef.current.scrollHeight - headingRef.current.clientHeight;
+      }
+      if ((currentIndex - pageData.length) * 60 < headingRef.current.scrollTop) {
+        headingRef.current.scrollBy(0, -60);
+      }
+    } else {
+      if (currentIndex - pageData.length - headingData.length === contentData.length - 1) {
+        contentRef.current.scrollTop = contentRef.current.scrollHeight - contentRef.current.clientHeight;
+      }
+      if ((currentIndex - pageData.length - headingData.length) * 60 < contentRef.current.scrollTop) {
+        contentRef.current.scrollBy(0, -60);
+      }
+    }
+  }
+
+  const handleKeyPress = (event) => {
+    const totalLength = pageData.length + headingData.length + contentData.length;
+
+    if (event.key === 'ArrowUp') {
+      setLastHovered((lastHovered - 1 + totalLength) % totalLength);
+      scrollUp();
+    } else if (event.key === 'ArrowDown') {
+      setLastHovered((lastHovered + 1) % totalLength);
+      scrollDown();
+    } else if (event.key === 'Enter') {
+
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('keydown', handleKeyPress);
+  
+    return () => {
+      window.removeEventListener('keydown', handleKeyPress);
+    };
+  }, [pageData, headingData, contentData, lastHovered, setLastHovered]);
+
+  useEffect(() => {
+    setLastHovered(0);
+    pageRef.current && (pageRef.current.scrollTop = 0);
+    headingRef.current && (headingRef.current.scrollTop = 0);
+    contentRef.current && (contentRef.current.scrollTop = 0);
+  }, [isSearchOpen, searchText])
+  
   let containerClass;
-  if (data.pageData.length >= 3 && data.headingData.length >= 3 && data.contentData.length >= 3) {
+  if (pageData.length >= 3 && headingData.length >= 3 && contentData.length >= 3) {
     containerClass = 'results-container'
   } else {
     containerClass = 'history-container'
   }
 
   return (
-    data.pageData.length === 0 && data.headingData.length === 0 && data.contentData.length === 0 ? 
+    pageData.length === 0 && headingData.length === 0 && contentData.length === 0 ? 
     (<div className='no-result'>'{searchText}'에 대한 검색 결과가 없습니다.</div>) : 
     (
       <div>
-        {data.pageData.length !== 0 && (
+        {pageData.length !== 0 && (
           <>
             <h3>
               Page
             </h3>
-            <ul className={containerClass}>
-              {data.pageData.map((item, index) => (
-                <li key={index} onMouseMove={() => {handleMouseMove('page', index)}} className={lastHovered.type==='page' && lastHovered.index===index ? 'hovered' : ''}>
+            <ul className={containerClass} ref={pageRef}>
+              {pageData.map((item, index) => (
+                <li key={index} onMouseMove={() => {handleMouseMove(index)}} 
+                // className={lastHovered.type==='page' && lastHovered.index===index ? 'hovered' : ''}
+                className={lastHovered === index ? 'hovered' : ''}
+                >
                   <Link to={item.pathName} onClick={() => handleSearchClick(favoriteList, searchList, setSearchList, setSearchText, setIsSearchOpen, modalRef, item)}>
                     {/* {item.pageName} */}
                     <ProcessText text={item.pageName} userInput={searchText} />
@@ -298,14 +466,17 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
             </ul>
           </>
         )}
-        {data.headingData.length !== 0 && (
+        {headingData.length !== 0 && (
           <>
             <h3>
               # Heading
             </h3>
-            <ul className={containerClass}>
-              {data.headingData.map((item, index) => (
-                <li key={index} onMouseMove={() => {handleMouseMove('heading', index)}} className={lastHovered.type==='heading' && lastHovered.index===index ? 'hovered' : ''}>
+            <ul className={containerClass} ref={headingRef}>
+              {headingData.map((item, index) => (
+                <li key={index} onMouseMove={() => {handleMouseMove(index + pageData.length)}} 
+                // className={lastHovered.type==='heading' && lastHovered.index===index ? 'hovered' : ''}
+                className={lastHovered === index + pageData.length ? 'hovered' : ''}
+                >
                   <Link to={item.pathName} onClick={() => handleSearchClick(favoriteList, searchList, setSearchList, setSearchText, setIsSearchOpen, modalRef, item)}>
                     {/* {item.heading} */}
                     <ProcessText text={item.heading} userInput={searchText} />  
@@ -318,14 +489,17 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
             </ul>
           </>
         )}
-        {data.contentData.length !== 0 && (
+        {contentData.length !== 0 && (
           <>
             <h3>
               Content
             </h3>
-            <ul className={containerClass}>
-              {data.contentData.map((item, index) => (
-                <li key={index} onMouseMove={() => {handleMouseMove('content', index)}} className={lastHovered.type==='content' && lastHovered.index===index ? 'hovered' : ''}>
+            <ul className={containerClass} ref={contentRef}>
+              {contentData.map((item, index) => (
+                <li key={index} onMouseMove={() => {handleMouseMove(index + pageData.length + headingData.length)}} 
+                // className={lastHovered.type==='content' && lastHovered.index===index ? 'hovered' : ''}
+                className={lastHovered === index + pageData.length + headingData.length ? 'hovered' : ''}
+                >
                   <Link to={item.pathName} onClick={() => handleSearchClick(favoriteList, searchList, setSearchList, setSearchText, setIsSearchOpen, modalRef, item)}>
                     {/* {item.text} */}
                     <ProcessText text={item.text} userInput={searchText} />
@@ -391,7 +565,7 @@ function filterData(searchText, searchData) {
     if (!item.heading) {
 
     } else {
-      newHeading = item.heading.toLowerCase().replace(/ /g, '-');
+      newHeading = item.heading.replace(/ /g, '-');
     }
 
     const pathName = item.dirName ? `/docs/${item.dirName}/${item.fileName}#${newHeading}` : 
