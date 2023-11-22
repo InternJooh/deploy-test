@@ -353,25 +353,29 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
   const scrollDown = () => {
     const totalLength = pageData.length + headingData.length + contentData.length;
     const currentIndex = lastHovered + 1 === totalLength ? 0 : lastHovered + 1;
+
+    let containerHeight;
+    containerClass === 'history-container' ? containerHeight = 240 : containerHeight = 180;
+
     if (currentIndex < pageData.length) {
       if (currentIndex === 0) {
         pageRef.current.scrollTop = 0;
       }
-      if ((currentIndex+1) * 60 - 240 > pageRef.current.scrollTop) {
+      if ((currentIndex+1) * 60 - containerHeight > pageRef.current.scrollTop) {
         pageRef.current.scrollBy(0, 60);
       }
     } else if (currentIndex < pageData.length + headingData.length) {
       if (currentIndex - pageData.length === 0) {
         headingRef.current.scrollTop = 0;
       }
-      if ((currentIndex+1 - pageData.length) * 60 - 240 > headingRef.current.scrollTop) {
+      if ((currentIndex+1 - pageData.length) * 60 - containerHeight > headingRef.current.scrollTop) {
         headingRef.current.scrollBy(0, 60);
       }
     } else {
       if (currentIndex - pageData.length - headingData.length === 0) {
         contentRef.current.scrollTop = 0;
       }
-      if ((currentIndex+1 - pageData.length - headingData.length) * 60 - 240 > contentRef.current.scrollTop) {
+      if ((currentIndex+1 - pageData.length - headingData.length) * 60 - containerHeight > contentRef.current.scrollTop) {
         contentRef.current.scrollBy(0, 60);
       }
     }
@@ -379,8 +383,8 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
 
   const scrollUp = () => {
     const lastIndex = pageData.length + headingData.length + contentData.length - 1;
-
     const currentIndex = lastHovered - 1 < 0 ? lastIndex : lastHovered - 1;
+
     if (currentIndex < pageData.length) {
       if (currentIndex === pageData.length - 1) {
         pageRef.current.scrollTop = pageRef.current.scrollHeight - pageRef.current.clientHeight;
