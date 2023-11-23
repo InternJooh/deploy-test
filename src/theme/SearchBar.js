@@ -199,16 +199,15 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
       } else if (event.key === 'ArrowDown') {
         setLastHovered((prevHovered) => (prevHovered + 1) % totalLength);
         scrollDown();
-      } else if (event.key === 'Enter') {
+      } else if (event.key === 'Enter' && isSearchOpen) {
         let pathName = '/deploy-test';
         let item;
         if (lastHovered < searchList.length) {
           item = searchList[lastHovered]
-          pathName = pathName + item.pathName;
         } else {
           item = favoriteList[lastHovered - searchList.length];
-          pathName = pathName + item.pathName;
         }
+        pathName = pathName + item.pathName;
         history.push(pathName);
         handleSearchClick(favoriteList, searchList, setSearchList, setSearchText, setIsSearchOpen, modalRef, item);
       }
@@ -353,6 +352,8 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
 }
 
 function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, searchText, setSearchText, setIsSearchOpen, modalRef, data }) {
+  const history = useHistory();
+
   const pageData = data.pageData;
   const headingData = data.headingData;
   const contentData = data.contentData;
@@ -440,8 +441,19 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
     } else if (event.key === 'ArrowDown') {
       setLastHovered((lastHovered + 1) % totalLength);
       scrollDown();
-    } else if (event.key === 'Enter') {
-
+    } else if (event.key === 'Enter' && isSearchOpen) {
+      let pathName = '/deploy-test';
+      let item;
+      if (lastHovered < pageData.length) {
+        item = pageData[lastHovered]
+      } else if (lastHovered < pageData.length + headingData.length) {
+        item = headingData[lastHovered - pageData.length];
+      } else {
+        item = contentData[lastHovered - pageData.length - headingData.length];
+      }
+      pathName = pathName + item.pathName
+      history.push(pathName);
+      handleSearchClick(favoriteList, searchList, setSearchList, setSearchText, setIsSearchOpen, modalRef, item);
     }
   };
 
