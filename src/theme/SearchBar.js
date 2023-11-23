@@ -1,9 +1,10 @@
 // import SearchBar from '@theme-original/SearchBar';
-import React, { useLayoutEffect } from 'react';
+import React from 'react';
 import Hangul from 'hangul-js';
 import { useState, useRef, useEffect } from 'react';
 import Link from '@docusaurus/Link';
 import data from '../../output/search-index.json'
+import { useHistory } from 'react-router-dom';
 import './styles.css';
 
 export default function SearchBarWrapper() {
@@ -128,6 +129,7 @@ function SearchModal({ recentRef, favoriteRef, favoriteList, setFavoriteList, se
 }
 
 function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavoriteList, searchList, setSearchList, setSearchText, isSearchOpen, setIsSearchOpen, modalRef }) {
+  const history = useHistory();
   const [lastHovered, setLastHovered] = useState(0);
   const [deletedIdx, setDeletedIdx] = useState(0);
   const [hoveredFavorite, setHoveredFavorite] = useState(-1);
@@ -193,7 +195,17 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
         setLastHovered((prevHovered) => (prevHovered + 1) % totalLength);
         scrollDown();
       } else if (event.key === 'Enter') {
-
+        let pathName = '/mint-ui-map-guide';
+        let item;
+        if (lastHovered < searchList.length) {
+          item = searchList[lastHovered]
+          pathName = pathName + item.pathName;
+        } else {
+          item = favoriteList[lastHovered - searchList.length];
+          pathName = pathName + item.pathName;
+        }
+        history.push(pathName);
+        handleSearchClick(favoriteList, searchList, setSearchList, setSearchText, setIsSearchOpen, modalRef, item);
       }
     };
   
@@ -411,6 +423,11 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
 
   const handleKeyPress = (event) => {
     const totalLength = pageData.length + headingData.length + contentData.length;
+    
+    if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+      // Prevent default behavior when up or down arrow keys are pressed
+      event.preventDefault();
+    }
 
     if (event.key === 'ArrowUp') {
       setLastHovered((lastHovered - 1 + totalLength) % totalLength);
