@@ -187,6 +187,11 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
 
     const handleKeyPress = (event) => {
       const totalLength = searchList.length + favoriteList.length;
+
+      if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === 'Enter') {
+        // Prevent default behavior when up or down arrow keys are pressed
+        event.preventDefault();
+      }
     
       if (event.key === 'ArrowUp') {
         setLastHovered((prevHovered) => (prevHovered - 1 + totalLength) % totalLength);
@@ -195,8 +200,7 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
         setLastHovered((prevHovered) => (prevHovered + 1) % totalLength);
         scrollDown();
       } else if (event.key === 'Enter') {
-        let pathName = '/deploy-test';
-        console.log(pathName);
+        let pathName = '/mint-ui-map-guide';
         let item;
         if (lastHovered < searchList.length) {
           item = searchList[lastHovered]
@@ -425,7 +429,7 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
   const handleKeyPress = (event) => {
     const totalLength = pageData.length + headingData.length + contentData.length;
     
-    if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+    if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === 'Enter') {
       // Prevent default behavior when up or down arrow keys are pressed
       event.preventDefault();
     }
