@@ -196,6 +196,7 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
         scrollDown();
       } else if (event.key === 'Enter') {
         let pathName = '/deploy-test';
+        console.log(pathName);
         let item;
         if (lastHovered < searchList.length) {
           item = searchList[lastHovered]
