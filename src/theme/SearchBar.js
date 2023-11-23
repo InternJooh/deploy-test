@@ -195,7 +195,7 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
         setLastHovered((prevHovered) => (prevHovered + 1) % totalLength);
         scrollDown();
       } else if (event.key === 'Enter') {
-        let pathName = '/mint-ui-map-guide';
+        let pathName = '/deploy-test';
         let item;
         if (lastHovered < searchList.length) {
           item = searchList[lastHovered]
