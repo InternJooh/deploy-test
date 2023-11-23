@@ -140,47 +140,52 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
       const totalLength = searchList.length + favoriteList.length;
       const currentIndex = lastHovered + 1 === totalLength ? 0 : lastHovered + 1;
 
-      if (currentIndex < searchList.length) {
-        if (currentIndex === 0) {
-          recentRef.current.scrollTop = 0;
-        }
-        if ((currentIndex+1) * 60 - 240 > recentRef.current.scrollTop) {
-          recentRef.current.scrollBy(0, 60);
-        } else if (recentRef.current.scrollTop > currentIndex * 60) {
-          recentRef.current.scrollTop = currentIndex* 60;
-        }
-      } else {
-        if (currentIndex - searchList.length === 0) {
-          favoriteRef.current.scrollTop = 0;
-        }
-        if ((currentIndex+1 - searchList.length) * 60 - 240 > favoriteRef.current.scrollTop) {
-          favoriteRef.current.scrollBy(0, 60);
-        } else if (favoriteRef.current.scrollTop > (currentIndex - searchList.length) * 60) {
-          favoriteRef.current.scrollTop = (currentIndex - searchList.length) * 60;
+      if (totalLength !== 0) {
+        if (currentIndex < searchList.length) {
+          if (currentIndex === 0) {
+            recentRef.current.scrollTop = 0;
+          }
+          if ((currentIndex+1) * 60 - 240 > recentRef.current.scrollTop) {
+            recentRef.current.scrollBy(0, 60);
+          } else if (recentRef.current.scrollTop > currentIndex * 60) {
+            recentRef.current.scrollTop = currentIndex* 60;
+          }
+        } else {
+          if (currentIndex - searchList.length === 0) {
+            favoriteRef.current.scrollTop = 0;
+          }
+          if ((currentIndex+1 - searchList.length) * 60 - 240 > favoriteRef.current.scrollTop) {
+            favoriteRef.current.scrollBy(0, 60);
+          } else if (favoriteRef.current.scrollTop > (currentIndex - searchList.length) * 60) {
+            favoriteRef.current.scrollTop = (currentIndex - searchList.length) * 60;
+          }
         }
       }
     }
-
+      
     const scrollUp = () => {
       const lastIndex = searchList.length + favoriteList.length - 1;
       const currentIndex = lastHovered - 1 < 0 ? lastIndex : lastHovered - 1;
-      if (currentIndex < searchList.length) {
-        if (currentIndex === searchList.length - 1) {
-          recentRef.current.scrollTop = recentRef.current.scrollHeight - recentRef.current.clientHeight;
-        }
-        if (currentIndex * 60 < recentRef.current.scrollTop) {
-          recentRef.current.scrollBy(0, -60);
-        } else if (recentRef.current.scrollTop + 240 < (currentIndex+1) * 60) {
-          recentRef.current.scrollTop = currentIndex* 60 - 180;
-        }
-      } else {
-        if (currentIndex - searchList.length === favoriteList.length - 1) {
-          favoriteRef.current.scrollTop = favoriteRef.current.scrollHeight - favoriteRef.current.clientHeight;
-        }
-        if ((currentIndex - searchList.length) * 60 < favoriteRef.current.scrollTop) {
-          favoriteRef.current.scrollBy(0, -60);
-        } else if (favoriteRef.current.scrollTop + 240 < (currentIndex - searchList.length +1) * 60) {
-          favoriteRef.current.scrollTop = (currentIndex - searchList.length)* 60 - 180;
+
+      if (lastIndex !== -1) {
+        if (currentIndex < searchList.length) {
+          if (currentIndex === searchList.length - 1) {
+            recentRef.current.scrollTop = recentRef.current.scrollHeight - recentRef.current.clientHeight;
+          }
+          if (currentIndex * 60 < recentRef.current.scrollTop) {
+            recentRef.current.scrollBy(0, -60);
+          } else if (recentRef.current.scrollTop + 240 < (currentIndex+1) * 60) {
+            recentRef.current.scrollTop = currentIndex* 60 - 180;
+          }
+        } else {
+          if (currentIndex - searchList.length === favoriteList.length - 1) {
+            favoriteRef.current.scrollTop = favoriteRef.current.scrollHeight - favoriteRef.current.clientHeight;
+          }
+          if ((currentIndex - searchList.length) * 60 < favoriteRef.current.scrollTop) {
+            favoriteRef.current.scrollBy(0, -60);
+          } else if (favoriteRef.current.scrollTop + 240 < (currentIndex - searchList.length +1) * 60) {
+            favoriteRef.current.scrollTop = (currentIndex - searchList.length)* 60 - 180;
+          }
         }
       }
     }
@@ -189,27 +194,28 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
       const totalLength = searchList.length + favoriteList.length;
 
       if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === 'Enter') {
-        // Prevent default behavior when up or down arrow keys are pressed
         event.preventDefault();
       }
     
-      if (event.key === 'ArrowUp') {
-        setLastHovered((prevHovered) => (prevHovered - 1 + totalLength) % totalLength);
-        scrollUp();
-      } else if (event.key === 'ArrowDown') {
-        setLastHovered((prevHovered) => (prevHovered + 1) % totalLength);
-        scrollDown();
-      } else if (event.key === 'Enter' && isSearchOpen) {
-        let pathName = '/deploy-test';
-        let item;
-        if (lastHovered < searchList.length) {
-          item = searchList[lastHovered]
-        } else {
-          item = favoriteList[lastHovered - searchList.length];
+      if (totalLength !== 0) {
+        if (event.key === 'ArrowUp') {
+          setLastHovered((prevHovered) => (prevHovered - 1 + totalLength) % totalLength);
+          scrollUp();
+        } else if (event.key === 'ArrowDown') {
+          setLastHovered((prevHovered) => (prevHovered + 1) % totalLength);
+          scrollDown();
+        } else if (event.key === 'Enter' && isSearchOpen) {
+          let pathName = '/deploy-test';
+          let item;
+          if (lastHovered < searchList.length) {
+            item = searchList[lastHovered]
+          } else {
+            item = favoriteList[lastHovered - searchList.length];
+          }
+          pathName = pathName + item.pathName;
+          history.push(pathName);
+          handleSearchClick(favoriteList, searchList, setSearchList, setSearchText, setIsSearchOpen, modalRef, item);
         }
-        pathName = pathName + item.pathName;
-        history.push(pathName);
-        handleSearchClick(favoriteList, searchList, setSearchList, setSearchText, setIsSearchOpen, modalRef, item);
       }
     };
   
@@ -218,7 +224,7 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
     return () => {
       window.removeEventListener('keydown', handleKeyPress);
     };
-  }, [searchList, favoriteList, lastHovered, setLastHovered]);
+  }, [searchList, favoriteList, lastHovered, setLastHovered, isSearchOpen]);
 
   useEffect(() => {
     setLastHovered(0);
@@ -375,57 +381,63 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
     let containerHeight;
     containerClass === 'history-container' ? containerHeight = 240 : containerHeight = 180;
 
-    if (currentIndex < pageData.length) {
-      if (currentIndex === 0) {
-        pageRef.current.scrollTop = 0;
-      }
-      if ((currentIndex+1) * 60 - containerHeight > pageRef.current.scrollTop) {
-        pageRef.current.scrollBy(0, 60);
-      }
-    } else if (currentIndex < pageData.length + headingData.length) {
-      if (currentIndex - pageData.length === 0) {
-        headingRef.current.scrollTop = 0;
-      }
-      if ((currentIndex+1 - pageData.length) * 60 - containerHeight > headingRef.current.scrollTop) {
-        headingRef.current.scrollBy(0, 60);
-      }
-    } else {
-      if (currentIndex - pageData.length - headingData.length === 0) {
-        contentRef.current.scrollTop = 0;
-      }
-      if ((currentIndex+1 - pageData.length - headingData.length) * 60 - containerHeight > contentRef.current.scrollTop) {
-        contentRef.current.scrollBy(0, 60);
+    if (totalLength !== 0) {
+      if (currentIndex < pageData.length) {
+        if (currentIndex === 0) {
+          pageRef.current.scrollTop = 0;
+        }
+        if ((currentIndex+1) * 60 - containerHeight > pageRef.current.scrollTop) {
+          pageRef.current.scrollBy(0, 60);
+        }
+      } else if (currentIndex < pageData.length + headingData.length) {
+        if (currentIndex - pageData.length === 0) {
+          headingRef.current.scrollTop = 0;
+        }
+        if ((currentIndex+1 - pageData.length) * 60 - containerHeight > headingRef.current.scrollTop) {
+          headingRef.current.scrollBy(0, 60);
+        }
+      } else {
+        if (currentIndex - pageData.length - headingData.length === 0) {
+          contentRef.current.scrollTop = 0;
+        }
+        if ((currentIndex+1 - pageData.length - headingData.length) * 60 - containerHeight > contentRef.current.scrollTop) {
+          contentRef.current.scrollBy(0, 60);
+        }
       }
     }
   }
+    
 
   const scrollUp = () => {
     const lastIndex = pageData.length + headingData.length + contentData.length - 1;
     const currentIndex = lastHovered - 1 < 0 ? lastIndex : lastHovered - 1;
 
-    if (currentIndex < pageData.length) {
-      if (currentIndex === pageData.length - 1) {
-        pageRef.current.scrollTop = pageRef.current.scrollHeight - pageRef.current.clientHeight;
-      }
-      if (currentIndex * 60 < pageRef.current.scrollTop) {
-        pageRef.current.scrollBy(0, -60);
-      }
-    } else if (currentIndex < pageData.length + headingData.length) {
-      if (currentIndex - pageData.length === headingData.length - 1) {
-        headingRef.current.scrollTop = headingRef.current.scrollHeight - headingRef.current.clientHeight;
-      }
-      if ((currentIndex - pageData.length) * 60 < headingRef.current.scrollTop) {
-        headingRef.current.scrollBy(0, -60);
-      }
-    } else {
-      if (currentIndex - pageData.length - headingData.length === contentData.length - 1) {
-        contentRef.current.scrollTop = contentRef.current.scrollHeight - contentRef.current.clientHeight;
-      }
-      if ((currentIndex - pageData.length - headingData.length) * 60 < contentRef.current.scrollTop) {
-        contentRef.current.scrollBy(0, -60);
+    if (lastIndex !== -1) {
+      if (currentIndex < pageData.length) {
+        if (currentIndex === pageData.length - 1) {
+          pageRef.current.scrollTop = pageRef.current.scrollHeight - pageRef.current.clientHeight;
+        }
+        if (currentIndex * 60 < pageRef.current.scrollTop) {
+          pageRef.current.scrollBy(0, -60);
+        }
+      } else if (currentIndex < pageData.length + headingData.length) {
+        if (currentIndex - pageData.length === headingData.length - 1) {
+          headingRef.current.scrollTop = headingRef.current.scrollHeight - headingRef.current.clientHeight;
+        }
+        if ((currentIndex - pageData.length) * 60 < headingRef.current.scrollTop) {
+          headingRef.current.scrollBy(0, -60);
+        }
+      } else {
+        if (currentIndex - pageData.length - headingData.length === contentData.length - 1) {
+          contentRef.current.scrollTop = contentRef.current.scrollHeight - contentRef.current.clientHeight;
+        }
+        if ((currentIndex - pageData.length - headingData.length) * 60 < contentRef.current.scrollTop) {
+          contentRef.current.scrollBy(0, -60);
+        }
       }
     }
   }
+    
 
   const handleKeyPress = (event) => {
     const totalLength = pageData.length + headingData.length + contentData.length;
@@ -435,25 +447,27 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
       event.preventDefault();
     }
 
-    if (event.key === 'ArrowUp') {
-      setLastHovered((lastHovered - 1 + totalLength) % totalLength);
-      scrollUp();
-    } else if (event.key === 'ArrowDown') {
-      setLastHovered((lastHovered + 1) % totalLength);
-      scrollDown();
-    } else if (event.key === 'Enter' && isSearchOpen) {
-      let pathName = '/deploy-test';
-      let item;
-      if (lastHovered < pageData.length) {
-        item = pageData[lastHovered]
-      } else if (lastHovered < pageData.length + headingData.length) {
-        item = headingData[lastHovered - pageData.length];
-      } else {
-        item = contentData[lastHovered - pageData.length - headingData.length];
+    if (totalLength !== 0) {
+      if (event.key === 'ArrowUp') {
+        setLastHovered((lastHovered - 1 + totalLength) % totalLength);
+        scrollUp();
+      } else if (event.key === 'ArrowDown') {
+        setLastHovered((lastHovered + 1) % totalLength);
+        scrollDown();
+      } else if (event.key === 'Enter' && isSearchOpen) {
+        let pathName = '/deploy-test';
+        let item;
+        if (lastHovered < pageData.length) {
+          item = pageData[lastHovered]
+        } else if (lastHovered < pageData.length + headingData.length) {
+          item = headingData[lastHovered - pageData.length];
+        } else {
+          item = contentData[lastHovered - pageData.length - headingData.length];
+        }
+        pathName = pathName + item.pathName
+        history.push(pathName);
+        handleSearchClick(favoriteList, searchList, setSearchList, setSearchText, setIsSearchOpen, modalRef, item);
       }
-      pathName = pathName + item.pathName
-      history.push(pathName);
-      handleSearchClick(favoriteList, searchList, setSearchList, setSearchText, setIsSearchOpen, modalRef, item);
     }
   };
 
@@ -463,7 +477,7 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
     return () => {
       window.removeEventListener('keydown', handleKeyPress);
     };
-  }, [pageData, headingData, contentData, lastHovered, setLastHovered]);
+  }, [pageData, headingData, contentData, lastHovered, setLastHovered, isSearchOpen]);
 
   useEffect(() => {
     setLastHovered(0);
@@ -603,7 +617,7 @@ function filterData(searchText, searchData) {
     if (!item.heading) {
 
     } else {
-      newHeading = item.heading.replace(/ /g, '-');
+      newHeading = item.heading.toLowerCase().replace(/ /g, '-');
     }
 
     const pathName = item.dirName ? `/docs/${item.dirName}/${item.fileName}#${newHeading}` : 
