@@ -134,8 +134,9 @@ dialog h3 {
   color: #2F8555;
   margin-top: 5px;
   margin-bottom: 8px;
-  font-size: 15px;
   font-weight: 500;
+  margin-left: 2px;
+  font-size: 15px
 }
 
 [data-theme='dark'] dialog h3 {

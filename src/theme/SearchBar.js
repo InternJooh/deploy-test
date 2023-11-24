@@ -193,18 +193,21 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
     const handleKeyPress = (event) => {
       const totalLength = searchList.length + favoriteList.length;
 
-      if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === 'Enter') {
+      if (isSearchOpen && (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === 'Tab')) {
+        event.preventDefault();
+      }
+      if (event.key === 'Enter') {
         event.preventDefault();
       }
     
-      if (totalLength !== 0) {
+      if (totalLength !== 0 && isSearchOpen) {
         if (event.key === 'ArrowUp') {
           setLastHovered((prevHovered) => (prevHovered - 1 + totalLength) % totalLength);
           scrollUp();
         } else if (event.key === 'ArrowDown') {
           setLastHovered((prevHovered) => (prevHovered + 1) % totalLength);
           scrollDown();
-        } else if (event.key === 'Enter' && isSearchOpen) {
+        } else if (event.key === 'Enter') {
           let pathName = '/deploy-test';
           let item;
           if (lastHovered < searchList.length) {
@@ -215,6 +218,14 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
           pathName = pathName + item.pathName;
           history.push(pathName);
           handleSearchClick(favoriteList, searchList, setSearchList, setSearchText, setIsSearchOpen, modalRef, item);
+        } else if (event.key === 'Tab') {
+          if (lastHovered < searchList.length && favoriteList.length !== 0) {
+            setLastHovered(searchList.length);
+            favoriteRef.current.scrollTop = 0;
+          } else if (searchList.length !== 0 && lastHovered < totalLength) {
+            setLastHovered(0);
+            recentRef.current.scrollTop = 0;
+          }
         }
       }
     };
@@ -302,7 +313,7 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
     <div>
       {searchList.length !== 0 && (
         <div>
-          <h3>Recent</h3>
+          <h3>최근</h3>
           <ul className='history-container' ref={recentRef}>
             {searchList.map((item, index) => (
               <li key={item.pathName} className={index === lastHovered ? 'hovered' : ''} onMouseMove={() => handleMouseEnter(index)}>
@@ -328,7 +339,7 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
 
       {favoriteList.length !== 0 && (
         <div>
-          <h3>Favorites</h3>
+          <h3>즐겨찾기</h3>
           <ul className='history-container' ref={favoriteRef}>
             {favoriteList.map((item, index) => (
               <li key={item.pathName} className={index + searchList.length === lastHovered ? 'hovered' : ''} onMouseMove={() => handleMouseEnter(index + searchList.length)}>
@@ -442,19 +453,21 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
   const handleKeyPress = (event) => {
     const totalLength = pageData.length + headingData.length + contentData.length;
     
-    if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === 'Enter') {
-      // Prevent default behavior when up or down arrow keys are pressed
+    if (isSearchOpen && (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === 'Tab')) {
+      event.preventDefault();
+    } 
+    if (event.key === 'Enter') {
       event.preventDefault();
     }
 
-    if (totalLength !== 0) {
+    if (totalLength !== 0 && isSearchOpen) {
       if (event.key === 'ArrowUp') {
         setLastHovered((lastHovered - 1 + totalLength) % totalLength);
         scrollUp();
       } else if (event.key === 'ArrowDown') {
         setLastHovered((lastHovered + 1) % totalLength);
         scrollDown();
-      } else if (event.key === 'Enter' && isSearchOpen) {
+      } else if (event.key === 'Enter') {
         let pathName = '/deploy-test';
         let item;
         if (lastHovered < pageData.length) {
@@ -467,6 +480,45 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
         pathName = pathName + item.pathName
         history.push(pathName);
         handleSearchClick(favoriteList, searchList, setSearchList, setSearchText, setIsSearchOpen, modalRef, item);
+      } else if (event.key === 'Tab') {
+        if (totalLength !== pageData.length && totalLength !== headingData.length && totalLength !== contentData.length){
+          if (pageData.length !== 0 && headingData.length !== 0 && contentData.length !== 0) {
+            if (lastHovered < pageData.length) {
+              setLastHovered(pageData.length);
+              headingRef.current.scrollTop = 0;
+            } else if (lastHovered < pageData.length + headingData.length) {
+              setLastHovered(pageData.length + headingData.length);
+              contentRef.current.scrollTop = 0;
+            } else {
+              setLastHovered(0);
+              pageRef.current.scrollTop = 0;
+            }
+          } else if (pageData.length === 0) {
+            if (lastHovered < headingData.length) {
+              setLastHovered(headingData.length);
+              contentRef.current.scrollTop = 0;
+            } else {
+              setLastHovered(0);
+              headingRef.current.scrollTop = 0;
+            }
+          } else if (headingData.length === 0) {
+            if (lastHovered < pageData.length) {
+              setLastHovered(pageData.length);
+              contentRef.current.scrollTop = 0;
+            } else {
+              setLastHovered(0);
+              pageRef.current.scrollTop = 0;
+            }
+          } else if (contentData.length === 0) {
+            if (lastHovered < pageData.length) {
+              setLastHovered(pageData.length);
+              headingRef.current.scrollTop = 0;
+            } else {
+              setLastHovered(0);
+              pageRef.current.scrollTop = 0;
+            }
+          }
+        }
       }
     }
   };
@@ -501,7 +553,7 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
         {pageData.length !== 0 && (
           <>
             <h3>
-              Page
+              페이지
             </h3>
             <ul className={containerClass} ref={pageRef}>
               {pageData.map((item, index) => (
@@ -521,7 +573,7 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
         {headingData.length !== 0 && (
           <>
             <h3>
-              # Heading
+              # 헤더
             </h3>
             <ul className={containerClass} ref={headingRef}>
               {headingData.map((item, index) => (
@@ -544,7 +596,7 @@ function SearchResult({ favoriteList, searchList, setSearchList, isSearchOpen, s
         {contentData.length !== 0 && (
           <>
             <h3>
-              Content
+              내용
             </h3>
             <ul className={containerClass} ref={contentRef}>
               {contentData.map((item, index) => (
@@ -617,7 +669,7 @@ function filterData(searchText, searchData) {
     if (!item.heading) {
 
     } else {
-      newHeading = item.heading.toLowerCase().replace(/ /g, '-');
+      newHeading = item.heading.toLowerCase().replace(/['?!]/g, '').replace(/ /g, '-');
     }
 
     const pathName = item.dirName ? `/docs/${item.dirName}/${item.fileName}#${newHeading}` : 
