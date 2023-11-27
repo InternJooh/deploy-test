@@ -787,20 +787,20 @@ function ProcessText({ text, userInput }) {
   let startIdx = 0;
   let endIdx = text.length;
 
-  if (text.length > 40) {
+  if (text.length > 56) {
     // Number of characters to display before and after the highlighted part
-    charsBefore = 20;
-    charsAfter = 20;
+    charsBefore = 28;
+    charsAfter = 28;
 
     // Calculate the start and end indices for the truncated text
     startIdx = Math.max(0, firstMatch - charsBefore);
     endIdx = Math.min(text.length, firstMatch + charsAfter);
 
-    if (endIdx - startIdx < 38) {
+    if (endIdx - startIdx < 55) {
       if (startIdx === 0) {
-        endIdx = Math.min(text.length, 38);
+        endIdx = Math.min(text.length, 55);
       } else if (endIdx === text.length) {
-        startIdx = Math.max(0, text.length - 38)
+        startIdx = Math.max(0, text.length - 55)
       }
     }
   }
