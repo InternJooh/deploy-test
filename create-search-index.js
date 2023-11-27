@@ -79,7 +79,9 @@ function tokensToData(tokens, dirName, fileName){
         } else {
           currentHeading = token.text;
         }
-        const words = token.text.split(/\s+/);
+        // const words = token.text.split(/\s+/);
+        const words = token.text.split(/\s+/).map(word => word.replace(/[\*\[\]]/g, ''));
+
         words.forEach((word) => {
           // key 있음
           if (dataToWrite[word]) {
@@ -110,7 +112,9 @@ function tokensToData(tokens, dirName, fileName){
       else if (token.type === 'list') {
         const listTexts = cleanUpList(token);
         listTexts.forEach((listText) => {
-          const words = listText.split(/\s+/);
+          // const words = listText.split(/\s+/);
+          const words = listText.split(/\s+/).map(word => word.replace(/[\*\[\]]/g, ''));
+
           words.forEach((word) => {
           // key 있음
           if (dataToWrite[word]) {
@@ -123,7 +127,7 @@ function tokensToData(tokens, dirName, fileName){
                 { 
                   type: 'content',
                   frequency: 1, 
-                  text: listText, 
+                  text: listText.replace(/[\*\[\]]/g, ''), 
                   dirName: dirName, 
                   fileName: fileName, 
                   heading: currentHeading, 
@@ -136,7 +140,7 @@ function tokensToData(tokens, dirName, fileName){
               { 
                 type: 'content', 
                 frequency: 1, 
-                text: listText, 
+                text: listText.replace(/[\*\[\]]/g, ''), 
                 dirName: dirName, 
                 fileName: fileName, 
                 heading: currentHeading, 
@@ -148,8 +152,10 @@ function tokensToData(tokens, dirName, fileName){
         })
       } // 토큰이 paragraph이고 component가 아닌 경우만 저장
       else if (token.type === 'paragraph' && token.tokens[0].type !== 'html') {
-        const wholeText = token.text;
-        const words = token.text.split(/\s+/);
+        const wholeText = token.text.replace(/[\*\[\]]/g, '');
+        // const words = token.text.split(/\s+/);
+        const words = token.text.split(/\s+/).map(word => word.replace(/[\*\[\]]/g, ''));
+
         words.forEach((word) => {
           // key 있음
           if (dataToWrite[word]) {
@@ -174,7 +180,7 @@ function tokensToData(tokens, dirName, fileName){
               { 
                 type: 'content', 
                 frequency: 1, 
-                text: wholeText, 
+                text: wholeText.replace(/[\*\[\]]/g, ''), 
                 dirName: dirName, 
                 fileName: fileName, 
                 heading: currentHeading, 

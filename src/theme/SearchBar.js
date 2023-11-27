@@ -257,7 +257,7 @@ function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavo
   };
 
   const processLongText = (text) => {
-    const textToShow = text.length > 38 ? text.slice(0, 38) + '...' : text;
+    const textToShow = text.length > 50 ? text.slice(0, 50) + '...' : text;
   
     return textToShow;
   }
