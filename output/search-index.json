@@ -13,8 +13,8 @@
   "5": [
     {
       "type": "content",
-      "frequency": 1,
-      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "frequency": 2,
+      "text": "Let's discover Docusaurus in less than 5 minutes.\nShall we?",
       "fileName": "intro",
       "pageName": "Tutorial Intro"
     }
@@ -37,7 +37,7 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "text": "Let's discover Docusaurus in less than 5 minutes.\nShall we?",
       "fileName": "intro",
       "pageName": "Tutorial Intro"
     }
@@ -46,32 +46,74 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "text": "Let's discover Docusaurus in less than 5 minutes.\nShall we?",
       "fileName": "intro",
       "pageName": "Tutorial Intro"
     }
   ],
-  "**Docusaurus": [
+  "Docusaurus": [
+    {
+      "type": "content",
+      "frequency": 6,
+      "text": "Let's discover Docusaurus in less than 5 minutes.\nShall we?",
+      "fileName": "intro",
+      "pageName": "Tutorial Intro"
+    },
     {
       "type": "content",
       "frequency": 1,
-      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "text": "Or try Docusaurus immediately with docusaurus.new(https://docusaurus.new).",
       "fileName": "intro",
+      "heading": "Getting Started",
       "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Generate a new Docusaurus site using the classic template.",
+      "fileName": "intro",
+      "heading": "Generate a new site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 2,
+      "text": "Find inspirations in the Docusaurus showcase(https://docusaurus.io/showcase)",
+      "dirName": "tutorial-basics",
+      "fileName": "congratulations",
+      "heading": "What's next?",
+      "pageName": "Congratulations!"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus automatically creates a sidebar from the `docs` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
     }
   ],
   "in": [
     {
       "type": "content",
       "frequency": 2,
-      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "text": "Let's discover Docusaurus in less than 5 minutes.\nShall we?",
       "fileName": "intro",
       "pageName": "Tutorial Intro"
     },
     {
       "type": "content",
       "frequency": 2,
-      "text": "Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)",
+      "text": "Find inspirations in the Docusaurus showcase(https://docusaurus.io/showcase)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -136,7 +178,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "text": "Let's discover Docusaurus in less than 5 minutes.\nShall we?",
       "fileName": "intro",
       "pageName": "Tutorial Intro"
     }
@@ -145,16 +187,16 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "text": "Let's discover Docusaurus in less than 5 minutes.\nShall we?",
       "fileName": "intro",
       "pageName": "Tutorial Intro"
     }
   ],
-  "minutes**.": [
+  "minutes.": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "text": "Let's discover Docusaurus in less than 5 minutes.\nShall we?",
       "fileName": "intro",
       "pageName": "Tutorial Intro"
     }
@@ -163,7 +205,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "text": "Let's discover Docusaurus in less than 5 minutes.\nShall we?",
       "fileName": "intro",
       "pageName": "Tutorial Intro"
     }
@@ -172,7 +214,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Let's discover **Docusaurus in less than 5 minutes**.\nShall we?",
+      "text": "Let's discover Docusaurus in less than 5 minutes.\nShall we?",
       "fileName": "intro",
       "pageName": "Tutorial Intro"
     }
@@ -199,7 +241,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Get started by **creating a new site**.",
+      "text": "Get started by creating a new site.",
       "fileName": "intro",
       "heading": "Getting Started",
       "pageName": "Tutorial Intro"
@@ -207,7 +249,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)",
+      "text": "Get involved in the Docusaurus Community(https://docusaurus.io/community/support)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -218,7 +260,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Get started by **creating a new site**.",
+      "text": "Get started by creating a new site.",
       "fileName": "intro",
       "heading": "Getting Started",
       "pageName": "Tutorial Intro"
@@ -228,17 +270,17 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Get started by **creating a new site**.",
+      "text": "Get started by creating a new site.",
       "fileName": "intro",
       "heading": "Getting Started",
       "pageName": "Tutorial Intro"
     }
   ],
-  "**creating": [
+  "creating": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Get started by **creating a new site**.",
+      "text": "Get started by creating a new site.",
       "fileName": "intro",
       "heading": "Getting Started",
       "pageName": "Tutorial Intro"
@@ -248,7 +290,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Get started by **creating a new site**.",
+      "text": "Get started by creating a new site.",
       "fileName": "intro",
       "heading": "Getting Started",
       "pageName": "Tutorial Intro"
@@ -263,7 +305,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "text": "Generate a new Docusaurus site using the classic template.",
       "fileName": "intro",
       "heading": "Generate a new site",
       "pageName": "Tutorial Intro"
@@ -279,7 +321,7 @@
     {
       "type": "content",
       "frequency": 7,
-      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "text": "Have 5 more minutes? Take a look at versioning(../tutorial-extras/manage-docs-versions.md) and i18n(../tutorial-extras/translate-your-site.md).",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -287,7 +329,7 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)",
+      "text": "Add a custom Design and Layout(https://docusaurus.io/docs/styling-layout)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -326,7 +368,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "text": "Docusaurus automatically creates a sidebar from the `docs` folder.",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "heading": "Configure the Sidebar",
@@ -438,7 +480,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Get started by **creating a new site**.",
+      "text": "Get started by creating a new site.",
       "fileName": "intro",
       "heading": "Getting Started",
       "pageName": "Tutorial Intro"
@@ -453,7 +495,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "text": "Generate a new Docusaurus site using the classic template.",
       "fileName": "intro",
       "heading": "Generate a new site",
       "pageName": "Tutorial Intro"
@@ -461,7 +503,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "text": "A new blog post is now available at http://localhost:3000/blog/greetings(http://localhost:3000/blog/greetings).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "heading": "Create your first Post",
@@ -470,7 +512,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).",
+      "text": "A new document is now available at http://localhost:3000/docs/hello(http://localhost:3000/docs/hello).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "heading": "Create your first Doc",
@@ -479,7 +521,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).",
+      "text": "A new page is now available at http://localhost:3000/my-react-page(http://localhost:3000/my-react-page).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "heading": "Create your first React Page",
@@ -488,18 +530,18 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).",
+      "text": "A new page is now available at http://localhost:3000/my-markdown-page(http://localhost:3000/my-markdown-page).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "heading": "Create your first Markdown Page",
       "pageName": "Create a Page"
     }
   ],
-  "site**.": [
+  "site.": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Get started by **creating a new site**.",
+      "text": "Get started by creating a new site.",
       "fileName": "intro",
       "heading": "Getting Started",
       "pageName": "Tutorial Intro"
@@ -509,7 +551,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.",
+      "text": "Or try Docusaurus immediately with docusaurus.new(https://docusaurus.new).",
       "fileName": "intro",
       "heading": "Getting Started",
       "pageName": "Tutorial Intro"
@@ -524,64 +566,21 @@
       "pageName": "Translate your site"
     }
   ],
-  "**try": [
+  "try": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.",
+      "text": "Or try Docusaurus immediately with docusaurus.new(https://docusaurus.new).",
       "fileName": "intro",
       "heading": "Getting Started",
       "pageName": "Tutorial Intro"
     }
   ],
-  "Docusaurus": [
+  "immediately": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.",
-      "fileName": "intro",
-      "heading": "Getting Started",
-      "pageName": "Tutorial Intro"
-    },
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "Generate a new Docusaurus site using the **classic template**.",
-      "fileName": "intro",
-      "heading": "Generate a new site",
-      "pageName": "Tutorial Intro"
-    },
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.",
-      "fileName": "intro",
-      "heading": "Start your site",
-      "pageName": "Tutorial Intro"
-    },
-    {
-      "type": "content",
-      "frequency": 4,
-      "text": "Docusaurus has **much more to offer**!",
-      "dirName": "tutorial-basics",
-      "fileName": "congratulations",
-      "pageName": "Congratulations!"
-    },
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
-      "dirName": "tutorial-basics",
-      "fileName": "create-a-document",
-      "heading": "Configure the Sidebar",
-      "pageName": "Create a Document"
-    }
-  ],
-  "immediately**": [
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.",
+      "text": "Or try Docusaurus immediately with docusaurus.new(https://docusaurus.new).",
       "fileName": "intro",
       "heading": "Getting Started",
       "pageName": "Tutorial Intro"
@@ -591,7 +590,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.",
+      "text": "Or try Docusaurus immediately with docusaurus.new(https://docusaurus.new).",
       "fileName": "intro",
       "heading": "Getting Started",
       "pageName": "Tutorial Intro"
@@ -607,18 +606,18 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)",
+      "text": "Modify your site configuration with `docusaurus.config.js`(https://docusaurus.io/docs/api/docusaurus-config)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
       "pageName": "Congratulations!"
     }
   ],
-  "**[docusaurus.new](https://docusaurus.new)**.": [
+  "docusaurus.new(https://docusaurus.new).": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.",
+      "text": "Or try Docusaurus immediately with docusaurus.new(https://docusaurus.new).",
       "fileName": "intro",
       "heading": "Getting Started",
       "pageName": "Tutorial Intro"
@@ -675,11 +674,11 @@
       "pageName": "Tutorial Intro"
     }
   ],
-  "[Node.js](https://nodejs.org/en/download/)": [
+  "Node.js(https://nodejs.org/en/download/)": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "[Node.js](https://nodejs.org/en/download/) version 18.0 or above:",
+      "text": "Node.js(https://nodejs.org/en/download/) version 18.0 or above:",
       "fileName": "intro",
       "heading": "What you'll need",
       "pageName": "Tutorial Intro"
@@ -689,7 +688,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "[Node.js](https://nodejs.org/en/download/) version 18.0 or above:",
+      "text": "Node.js(https://nodejs.org/en/download/) version 18.0 or above:",
       "fileName": "intro",
       "heading": "What you'll need",
       "pageName": "Tutorial Intro"
@@ -733,7 +732,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "[Node.js](https://nodejs.org/en/download/) version 18.0 or above:",
+      "text": "Node.js(https://nodejs.org/en/download/) version 18.0 or above:",
       "fileName": "intro",
       "heading": "What you'll need",
       "pageName": "Tutorial Intro"
@@ -743,7 +742,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "[Node.js](https://nodejs.org/en/download/) version 18.0 or above:",
+      "text": "Node.js(https://nodejs.org/en/download/) version 18.0 or above:",
       "fileName": "intro",
       "heading": "What you'll need",
       "pageName": "Tutorial Intro"
@@ -759,7 +758,7 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "text": "Anything unclear or buggy in this tutorial? Please report it!(https://github.com/facebook/docusaurus/discussions/4610)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -767,7 +766,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -778,7 +777,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "[Node.js](https://nodejs.org/en/download/) version 18.0 or above:",
+      "text": "Node.js(https://nodejs.org/en/download/) version 18.0 or above:",
       "fileName": "intro",
       "heading": "What you'll need",
       "pageName": "Tutorial Intro"
@@ -861,7 +860,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Documents are **groups of pages** connected through:",
+      "text": "Documents are groups of pages connected through:",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "pageName": "Create a Document"
@@ -914,7 +913,7 @@
     {
       "type": "content",
       "frequency": 5,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "text": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -1043,7 +1042,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "text": "Generate a new Docusaurus site using the classic template.",
       "fileName": "intro",
       "heading": "Generate a new site",
       "pageName": "Tutorial Intro"
@@ -1060,7 +1059,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "text": "Generate a new Docusaurus site using the classic template.",
       "fileName": "intro",
       "heading": "Generate a new site",
       "pageName": "Tutorial Intro"
@@ -1075,7 +1074,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site reloads automatically and displays your changes.",
       "fileName": "intro",
       "heading": "Start your site",
       "pageName": "Tutorial Intro"
@@ -1083,7 +1082,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)",
+      "text": "Modify your site configuration with `docusaurus.config.js`(https://docusaurus.io/docs/api/docusaurus-config)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -1098,7 +1097,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "text": "It builds your site as simple static HTML, JavaScript and CSS files.",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
@@ -1114,7 +1113,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Build your site **for production**:",
+      "text": "Build your site for production:",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Build your site",
@@ -1173,7 +1172,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "text": "Generate a new Docusaurus site using the classic template.",
       "fileName": "intro",
       "heading": "Generate a new site",
       "pageName": "Tutorial Intro"
@@ -1183,7 +1182,7 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "text": "Generate a new Docusaurus site using the classic template.",
       "fileName": "intro",
       "heading": "Generate a new site",
       "pageName": "Tutorial Intro"
@@ -1199,7 +1198,7 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "text": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -1207,7 +1206,7 @@
     {
       "type": "content",
       "frequency": 3,
-      "text": "Read the [official documentation](https://docusaurus.io/)",
+      "text": "Read the official documentation(https://docusaurus.io/)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -1224,7 +1223,7 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "text": "Docusaurus automatically creates a sidebar from the `docs` folder.",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "heading": "Configure the Sidebar",
@@ -1242,7 +1241,7 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -1312,21 +1311,21 @@
       "pageName": "Translate your site"
     }
   ],
-  "**classic": [
+  "classic": [
     {
       "type": "content",
-      "frequency": 1,
-      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "frequency": 2,
+      "text": "Generate a new Docusaurus site using the classic template.",
       "fileName": "intro",
       "heading": "Generate a new site",
       "pageName": "Tutorial Intro"
     }
   ],
-  "template**.": [
+  "template.": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Generate a new Docusaurus site using the **classic template**.",
+      "text": "Generate a new Docusaurus site using the classic template.",
       "fileName": "intro",
       "heading": "Generate a new site",
       "pageName": "Tutorial Intro"
@@ -1334,7 +1333,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "text": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -1369,7 +1368,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "text": "The `build` folder is now served at http://localhost:3000/(http://localhost:3000/).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -1401,16 +1400,6 @@
       "fileName": "translate-your-site",
       "heading": "Add a Locale Dropdown",
       "pageName": "Translate your site"
-    }
-  ],
-  "classic": [
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "The classic template will automatically be added to your project after you run the command:",
-      "fileName": "intro",
-      "heading": "Generate a new site",
-      "pageName": "Tutorial Intro"
     }
   ],
   "template": [
@@ -1445,7 +1434,15 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site reloads automatically and displays your changes.",
+      "fileName": "intro",
+      "heading": "Start your site",
+      "pageName": "Tutorial Intro"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus automatically creates a sidebar from the `docs` folder.",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "heading": "Configure the Sidebar",
@@ -1499,7 +1496,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)",
+      "text": "Modify your site configuration with `docusaurus.config.js`(https://docusaurus.io/docs/api/docusaurus-config)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -1555,7 +1552,7 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "text": "It builds your site as simple static HTML, JavaScript and CSS files.",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
@@ -1571,7 +1568,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Build your site **for production**:",
+      "text": "Build your site for production:",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Build your site",
@@ -1722,7 +1719,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "text": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -1730,7 +1727,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -1749,7 +1746,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -1795,7 +1792,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "text": "Anything unclear or buggy in this tutorial? Please report it!(https://github.com/facebook/docusaurus/discussions/4610)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -1938,7 +1935,7 @@
     {
       "type": "content",
       "frequency": 3,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "text": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -1985,7 +1982,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
@@ -2118,7 +2115,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "text": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2303,7 +2300,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "text": "It builds your site as simple static HTML, JavaScript and CSS files.",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
@@ -2341,7 +2338,7 @@
     {
       "type": "content",
       "frequency": 3,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "text": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2349,7 +2346,7 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)",
+      "text": "Add navbar and footer items with `themeConfig`(https://docusaurus.io/docs/api/themes/configuration)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -2376,7 +2373,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "text": "Your localized site is accessible at http://localhost:3000/fr/(http://localhost:3000/fr/) and the `Getting Started` page is translated.",
       "dirName": "tutorial-extras",
       "fileName": "translate-your-site",
       "heading": "Start your localized site",
@@ -2445,10 +2442,28 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Build your site for production:",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Deploy your site",
+      "pageName": "Deploy your site"
     },
     {
       "type": "content",
@@ -2500,7 +2515,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "text": "Have 5 more minutes? Take a look at versioning(../tutorial-extras/manage-docs-versions.md) and i18n(../tutorial-extras/translate-your-site.md).",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2544,7 +2559,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "text": "The `build` folder is now served at http://localhost:3000/(http://localhost:3000/).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -2562,7 +2577,7 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "text": "Your localized site is accessible at http://localhost:3000/fr/(http://localhost:3000/fr/) and the `Getting Started` page is translated.",
       "dirName": "tutorial-extras",
       "fileName": "translate-your-site",
       "heading": "Start your localized site",
@@ -2592,7 +2607,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site reloads automatically and displays your changes.",
       "fileName": "intro",
       "heading": "Start your site",
       "pageName": "Tutorial Intro"
@@ -2602,7 +2617,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site reloads automatically and displays your changes.",
       "fileName": "intro",
       "heading": "Start your site",
       "pageName": "Tutorial Intro"
@@ -2629,7 +2644,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site reloads automatically and displays your changes.",
       "fileName": "intro",
       "heading": "Start your site",
       "pageName": "Tutorial Intro"
@@ -2639,7 +2654,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site reloads automatically and displays your changes.",
       "fileName": "intro",
       "heading": "Start your site",
       "pageName": "Tutorial Intro"
@@ -2649,7 +2664,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site reloads automatically and displays your changes.",
       "fileName": "intro",
       "heading": "Start your site",
       "pageName": "Tutorial Intro"
@@ -2668,7 +2683,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site reloads automatically and displays your changes.",
       "fileName": "intro",
       "heading": "Start your site",
       "pageName": "Tutorial Intro"
@@ -2676,7 +2691,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "text": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2686,27 +2701,17 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site reloads automatically and displays your changes.",
       "fileName": "intro",
       "heading": "Start your site",
       "pageName": "Tutorial Intro"
     }
   ],
-  "**reloads": [
+  "reloads": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
-      "fileName": "intro",
-      "heading": "Start your site",
-      "pageName": "Tutorial Intro"
-    }
-  ],
-  "automatically**": [
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site reloads automatically and displays your changes.",
       "fileName": "intro",
       "heading": "Start your site",
       "pageName": "Tutorial Intro"
@@ -2716,7 +2721,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site reloads automatically and displays your changes.",
       "fileName": "intro",
       "heading": "Start your site",
       "pageName": "Tutorial Intro"
@@ -2726,7 +2731,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.",
+      "text": "Open `docs/intro.md` (this page) and edit some lines: the site reloads automatically and displays your changes.",
       "fileName": "intro",
       "heading": "Start your site",
       "pageName": "Tutorial Intro"
@@ -2744,7 +2749,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "text": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2763,7 +2768,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "text": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2773,27 +2778,17 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "text": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
     }
   ],
-  "**basics": [
+  "basics": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
-      "dirName": "tutorial-basics",
-      "fileName": "congratulations",
-      "pageName": "Congratulations!"
-    }
-  ],
-  "Docusaurus**": [
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "text": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2803,17 +2798,17 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "text": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
     }
   ],
-  "**initial": [
+  "initial": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.",
+      "text": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2823,17 +2818,17 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus has **much more to offer**!",
+      "text": "Docusaurus has much more to offer!",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
     }
   ],
-  "**much": [
+  "much": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus has **much more to offer**!",
+      "text": "Docusaurus has much more to offer!",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2843,17 +2838,17 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "Docusaurus has **much more to offer**!",
+      "text": "Docusaurus has much more to offer!",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
     }
   ],
-  "offer**!": [
+  "offer!": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus has **much more to offer**!",
+      "text": "Docusaurus has much more to offer!",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2863,27 +2858,17 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "text": "Have 5 more minutes? Take a look at versioning(../tutorial-extras/manage-docs-versions.md) and i18n(../tutorial-extras/translate-your-site.md).",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
     }
   ],
-  "**5": [
+  "minutes?": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
-      "dirName": "tutorial-basics",
-      "fileName": "congratulations",
-      "pageName": "Congratulations!"
-    }
-  ],
-  "minutes**?": [
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "text": "Have 5 more minutes? Take a look at versioning(../tutorial-extras/manage-docs-versions.md) and i18n(../tutorial-extras/translate-your-site.md).",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2893,7 +2878,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "text": "Have 5 more minutes? Take a look at versioning(../tutorial-extras/manage-docs-versions.md) and i18n(../tutorial-extras/translate-your-site.md).",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2903,27 +2888,27 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "text": "Have 5 more minutes? Take a look at versioning(../tutorial-extras/manage-docs-versions.md) and i18n(../tutorial-extras/translate-your-site.md).",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
     }
   ],
-  "**[versioning](../tutorial-extras/manage-docs-versions.md)**": [
+  "versioning(../tutorial-extras/manage-docs-versions.md)": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "text": "Have 5 more minutes? Take a look at versioning(../tutorial-extras/manage-docs-versions.md) and i18n(../tutorial-extras/translate-your-site.md).",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
     }
   ],
-  "**[i18n](../tutorial-extras/translate-your-site.md)**.": [
+  "i18n(../tutorial-extras/translate-your-site.md).": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.",
+      "text": "Have 5 more minutes? Take a look at versioning(../tutorial-extras/manage-docs-versions.md) and i18n(../tutorial-extras/translate-your-site.md).",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2933,27 +2918,27 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "text": "Anything unclear or buggy in this tutorial? Please report it!(https://github.com/facebook/docusaurus/discussions/4610)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
     }
   ],
-  "**unclear**": [
+  "unclear": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "text": "Anything unclear or buggy in this tutorial? Please report it!(https://github.com/facebook/docusaurus/discussions/4610)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
     }
   ],
-  "**buggy**": [
+  "buggy": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "text": "Anything unclear or buggy in this tutorial? Please report it!(https://github.com/facebook/docusaurus/discussions/4610)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2963,17 +2948,17 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "text": "Anything unclear or buggy in this tutorial? Please report it!(https://github.com/facebook/docusaurus/discussions/4610)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
     }
   ],
-  "[Please": [
+  "Please": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "text": "Anything unclear or buggy in this tutorial? Please report it!(https://github.com/facebook/docusaurus/discussions/4610)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -2983,17 +2968,17 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "text": "Anything unclear or buggy in this tutorial? Please report it!(https://github.com/facebook/docusaurus/discussions/4610)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
     }
   ],
-  "it!](https://github.com/facebook/docusaurus/discussions/4610)": [
+  "it!(https://github.com/facebook/docusaurus/discussions/4610)": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)",
+      "text": "Anything unclear or buggy in this tutorial? Please report it!(https://github.com/facebook/docusaurus/discussions/4610)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "pageName": "Congratulations!"
@@ -3023,29 +3008,29 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Read the [official documentation](https://docusaurus.io/)",
+      "text": "Read the official documentation(https://docusaurus.io/)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
       "pageName": "Congratulations!"
     }
   ],
-  "[official": [
+  "official": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Read the [official documentation](https://docusaurus.io/)",
+      "text": "Read the official documentation(https://docusaurus.io/)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
       "pageName": "Congratulations!"
     }
   ],
-  "documentation](https://docusaurus.io/)": [
+  "documentation(https://docusaurus.io/)": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Read the [official documentation](https://docusaurus.io/)",
+      "text": "Read the official documentation(https://docusaurus.io/)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -3056,7 +3041,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)",
+      "text": "Modify your site configuration with `docusaurus.config.js`(https://docusaurus.io/docs/api/docusaurus-config)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -3094,18 +3079,18 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)",
+      "text": "Modify your site configuration with `docusaurus.config.js`(https://docusaurus.io/docs/api/docusaurus-config)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
       "pageName": "Congratulations!"
     }
   ],
-  "[`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)": [
+  "`docusaurus.config.js`(https://docusaurus.io/docs/api/docusaurus-config)": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)",
+      "text": "Modify your site configuration with `docusaurus.config.js`(https://docusaurus.io/docs/api/docusaurus-config)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -3116,7 +3101,7 @@
     {
       "type": "content",
       "frequency": 3,
-      "text": "Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)",
+      "text": "Add navbar and footer items with `themeConfig`(https://docusaurus.io/docs/api/themes/configuration)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -3134,7 +3119,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "text": "Add Markdown or React files to `src/pages` to create a standalone page:",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "pageName": "Create a Page"
@@ -3160,7 +3145,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)",
+      "text": "Add navbar and footer items with `themeConfig`(https://docusaurus.io/docs/api/themes/configuration)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -3171,7 +3156,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)",
+      "text": "Add navbar and footer items with `themeConfig`(https://docusaurus.io/docs/api/themes/configuration)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -3182,18 +3167,18 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)",
+      "text": "Add navbar and footer items with `themeConfig`(https://docusaurus.io/docs/api/themes/configuration)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
       "pageName": "Congratulations!"
     }
   ],
-  "[`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)": [
+  "`themeConfig`(https://docusaurus.io/docs/api/themes/configuration)": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)",
+      "text": "Add navbar and footer items with `themeConfig`(https://docusaurus.io/docs/api/themes/configuration)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -3204,51 +3189,51 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)",
+      "text": "Add a custom Design and Layout(https://docusaurus.io/docs/styling-layout)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
       "pageName": "Congratulations!"
     }
   ],
-  "[Design": [
+  "Design": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)",
+      "text": "Add a custom Design and Layout(https://docusaurus.io/docs/styling-layout)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
       "pageName": "Congratulations!"
     }
   ],
-  "Layout](https://docusaurus.io/docs/styling-layout)": [
+  "Layout(https://docusaurus.io/docs/styling-layout)": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)",
+      "text": "Add a custom Design and Layout(https://docusaurus.io/docs/styling-layout)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
       "pageName": "Congratulations!"
     }
   ],
-  "[search": [
+  "search": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add a [search bar](https://docusaurus.io/docs/search)",
+      "text": "Add a search bar(https://docusaurus.io/docs/search)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
       "pageName": "Congratulations!"
     }
   ],
-  "bar](https://docusaurus.io/docs/search)": [
+  "bar(https://docusaurus.io/docs/search)": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add a [search bar](https://docusaurus.io/docs/search)",
+      "text": "Add a search bar(https://docusaurus.io/docs/search)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -3259,7 +3244,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)",
+      "text": "Find inspirations in the Docusaurus showcase(https://docusaurus.io/showcase)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -3270,29 +3255,18 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)",
+      "text": "Find inspirations in the Docusaurus showcase(https://docusaurus.io/showcase)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
       "pageName": "Congratulations!"
     }
   ],
-  "[Docusaurus": [
-    {
-      "type": "content",
-      "frequency": 2,
-      "text": "Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)",
-      "dirName": "tutorial-basics",
-      "fileName": "congratulations",
-      "heading": "What's next?",
-      "pageName": "Congratulations!"
-    }
-  ],
-  "showcase](https://docusaurus.io/showcase)": [
+  "showcase(https://docusaurus.io/showcase)": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)",
+      "text": "Find inspirations in the Docusaurus showcase(https://docusaurus.io/showcase)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -3303,18 +3277,18 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)",
+      "text": "Get involved in the Docusaurus Community(https://docusaurus.io/community/support)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
       "pageName": "Congratulations!"
     }
   ],
-  "Community](https://docusaurus.io/community/support)": [
+  "Community(https://docusaurus.io/community/support)": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)",
+      "text": "Get involved in the Docusaurus Community(https://docusaurus.io/community/support)",
       "dirName": "tutorial-basics",
       "fileName": "congratulations",
       "heading": "What's next?",
@@ -3445,27 +3419,63 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
-    }
-  ],
-  "**page": [
+    },
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "text": "Docusaurus automatically creates a sidebar from the `docs` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "page": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at http://localhost:3000/my-react-page(http://localhost:3000/my-react-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first React Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "A new page is now available at http://localhost:3000/my-markdown-page(http://localhost:3000/my-markdown-page).",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "heading": "Create your first Markdown Page",
+      "pageName": "Create a Page"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "Your localized site is accessible at http://localhost:3000/fr/(http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "dirName": "tutorial-extras",
+      "fileName": "translate-your-site",
+      "heading": "Start your localized site",
+      "pageName": "Translate your site"
     }
   ],
   "each": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
@@ -3474,8 +3484,8 @@
   "blog": [
     {
       "type": "content",
-      "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "frequency": 2,
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
@@ -3483,18 +3493,18 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "text": "A new blog post is now available at http://localhost:3000/blog/greetings(http://localhost:3000/blog/greetings).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "heading": "Create your first Post",
       "pageName": "Create a Blog Post"
     }
   ],
-  "post**,": [
+  "post,": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
@@ -3504,17 +3514,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
-      "dirName": "tutorial-basics",
-      "fileName": "create-a-blog-post",
-      "pageName": "Create a Blog Post"
-    }
-  ],
-  "**blog": [
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
@@ -3524,37 +3524,37 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
     }
   ],
-  "page**,": [
+  "page,": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
     }
   ],
-  "**tag": [
+  "tag": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
     }
   ],
-  "system**,": [
+  "system,": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
@@ -3564,7 +3564,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
@@ -3578,11 +3578,11 @@
       "pageName": "Manage Docs Versions"
     }
   ],
-  "**RSS**": [
+  "RSS": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
@@ -3592,7 +3592,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...",
+      "text": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "pageName": "Create a Blog Post"
@@ -3694,7 +3694,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "text": "A new blog post is now available at http://localhost:3000/blog/greetings(http://localhost:3000/blog/greetings).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "heading": "Create your first Post",
@@ -3703,7 +3703,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).",
+      "text": "A new document is now available at http://localhost:3000/docs/hello(http://localhost:3000/docs/hello).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "heading": "Create your first Doc",
@@ -3712,7 +3712,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).",
+      "text": "A new page is now available at http://localhost:3000/my-react-page(http://localhost:3000/my-react-page).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "heading": "Create your first React Page",
@@ -3721,7 +3721,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).",
+      "text": "A new page is now available at http://localhost:3000/my-markdown-page(http://localhost:3000/my-markdown-page).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "heading": "Create your first Markdown Page",
@@ -3732,7 +3732,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "text": "A new blog post is now available at http://localhost:3000/blog/greetings(http://localhost:3000/blog/greetings).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "heading": "Create your first Post",
@@ -3743,7 +3743,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "text": "A new blog post is now available at http://localhost:3000/blog/greetings(http://localhost:3000/blog/greetings).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "heading": "Create your first Post",
@@ -3752,7 +3752,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).",
+      "text": "A new document is now available at http://localhost:3000/docs/hello(http://localhost:3000/docs/hello).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "heading": "Create your first Doc",
@@ -3770,7 +3770,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).",
+      "text": "A new page is now available at http://localhost:3000/my-react-page(http://localhost:3000/my-react-page).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "heading": "Create your first React Page",
@@ -3779,7 +3779,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).",
+      "text": "A new page is now available at http://localhost:3000/my-markdown-page(http://localhost:3000/my-markdown-page).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "heading": "Create your first Markdown Page",
@@ -3788,7 +3788,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).",
+      "text": "Docusaurus is a static-site-generator (also called Jamstack(https://jamstack.org/)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
@@ -3796,7 +3796,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "text": "The `build` folder is now served at http://localhost:3000/(http://localhost:3000/).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -3823,7 +3823,7 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "text": "Your localized site is accessible at http://localhost:3000/fr/(http://localhost:3000/fr/) and the `Getting Started` page is translated.",
       "dirName": "tutorial-extras",
       "fileName": "translate-your-site",
       "heading": "Start your localized site",
@@ -3834,7 +3834,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "text": "A new blog post is now available at http://localhost:3000/blog/greetings(http://localhost:3000/blog/greetings).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "heading": "Create your first Post",
@@ -3843,7 +3843,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).",
+      "text": "A new document is now available at http://localhost:3000/docs/hello(http://localhost:3000/docs/hello).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "heading": "Create your first Doc",
@@ -3852,7 +3852,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).",
+      "text": "A new page is now available at http://localhost:3000/my-react-page(http://localhost:3000/my-react-page).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "heading": "Create your first React Page",
@@ -3861,7 +3861,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).",
+      "text": "A new page is now available at http://localhost:3000/my-markdown-page(http://localhost:3000/my-markdown-page).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "heading": "Create your first Markdown Page",
@@ -3870,7 +3870,7 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "text": "The `build` folder is now served at http://localhost:3000/(http://localhost:3000/).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -3899,7 +3899,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "text": "A new blog post is now available at http://localhost:3000/blog/greetings(http://localhost:3000/blog/greetings).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "heading": "Create your first Post",
@@ -3908,7 +3908,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).",
+      "text": "A new document is now available at http://localhost:3000/docs/hello(http://localhost:3000/docs/hello).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "heading": "Create your first Doc",
@@ -3917,7 +3917,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).",
+      "text": "A new page is now available at http://localhost:3000/my-react-page(http://localhost:3000/my-react-page).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "heading": "Create your first React Page",
@@ -3926,18 +3926,18 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).",
+      "text": "A new page is now available at http://localhost:3000/my-markdown-page(http://localhost:3000/my-markdown-page).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "heading": "Create your first Markdown Page",
       "pageName": "Create a Page"
     }
   ],
-  "[http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).": [
+  "http://localhost:3000/blog/greetings(http://localhost:3000/blog/greetings).": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).",
+      "text": "A new blog post is now available at http://localhost:3000/blog/greetings(http://localhost:3000/blog/greetings).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-blog-post",
       "heading": "Create your first Post",
@@ -3956,27 +3956,27 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Documents are **groups of pages** connected through:",
+      "text": "Documents are groups of pages connected through:",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "pageName": "Create a Document"
     }
   ],
-  "**groups": [
+  "groups": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Documents are **groups of pages** connected through:",
+      "text": "Documents are groups of pages connected through:",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "pageName": "Create a Document"
     }
   ],
-  "pages**": [
+  "pages": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Documents are **groups of pages** connected through:",
+      "text": "Documents are groups of pages connected through:",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "pageName": "Create a Document"
@@ -3986,7 +3986,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Documents are **groups of pages** connected through:",
+      "text": "Documents are groups of pages connected through:",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "pageName": "Create a Document"
@@ -3996,47 +3996,56 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Documents are **groups of pages** connected through:",
+      "text": "Documents are groups of pages connected through:",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "pageName": "Create a Document"
     }
   ],
-  "**sidebar**": [
+  "sidebar": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "a **sidebar**",
+      "text": "a sidebar",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "pageName": "Create a Document"
+    },
+    {
+      "type": "content",
+      "frequency": 3,
+      "text": "Docusaurus automatically creates a sidebar from the `docs` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-document",
+      "heading": "Configure the Sidebar",
+      "pageName": "Create a Document"
+    }
+  ],
+  "previous/next": [
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "previous/next navigation",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "pageName": "Create a Document"
     }
   ],
-  "**previous/next": [
+  "navigation": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "**previous/next navigation**",
+      "text": "previous/next navigation",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "pageName": "Create a Document"
     }
   ],
-  "navigation**": [
+  "versioning": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "**previous/next navigation**",
-      "dirName": "tutorial-basics",
-      "fileName": "create-a-document",
-      "pageName": "Create a Document"
-    }
-  ],
-  "**versioning**": [
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "**versioning**",
+      "text": "versioning",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "pageName": "Create a Document"
@@ -4063,6 +4072,14 @@
       "pageName": "Create a Document"
     },
     {
+      "type": "content",
+      "frequency": 1,
+      "text": "Add Markdown or React files to `src/pages` to create a standalone page:",
+      "dirName": "tutorial-basics",
+      "fileName": "create-a-page",
+      "pageName": "Create a Page"
+    },
+    {
       "type": "heading",
       "depth": 2,
       "dirName": "tutorial-basics",
@@ -4086,18 +4103,18 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).",
+      "text": "A new document is now available at http://localhost:3000/docs/hello(http://localhost:3000/docs/hello).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "heading": "Create your first Doc",
       "pageName": "Create a Document"
     }
   ],
-  "[http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).": [
+  "http://localhost:3000/docs/hello(http://localhost:3000/docs/hello).": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).",
+      "text": "A new document is now available at http://localhost:3000/docs/hello(http://localhost:3000/docs/hello).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "heading": "Create your first Doc",
@@ -4132,33 +4149,11 @@
       "pageName": "Create a Document"
     }
   ],
-  "**creates": [
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
-      "dirName": "tutorial-basics",
-      "fileName": "create-a-document",
-      "heading": "Configure the Sidebar",
-      "pageName": "Create a Document"
-    }
-  ],
-  "sidebar**": [
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
-      "dirName": "tutorial-basics",
-      "fileName": "create-a-document",
-      "heading": "Configure the Sidebar",
-      "pageName": "Create a Document"
-    }
-  ],
   "from": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "text": "Docusaurus automatically creates a sidebar from the `docs` folder.",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "heading": "Configure the Sidebar",
@@ -4169,7 +4164,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "text": "Docusaurus automatically creates a sidebar from the `docs` folder.",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "heading": "Configure the Sidebar",
@@ -4189,7 +4184,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus automatically **creates a sidebar** from the `docs` folder.",
+      "text": "Docusaurus automatically creates a sidebar from the `docs` folder.",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
       "heading": "Configure the Sidebar",
@@ -4220,17 +4215,6 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add metadata to customize the sidebar label and position:",
-      "dirName": "tutorial-basics",
-      "fileName": "create-a-document",
-      "heading": "Configure the Sidebar",
-      "pageName": "Create a Document"
-    }
-  ],
-  "sidebar": [
-    {
-      "type": "content",
-      "frequency": 2,
       "text": "Add metadata to customize the sidebar label and position:",
       "dirName": "tutorial-basics",
       "fileName": "create-a-document",
@@ -4273,7 +4257,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "text": "It builds your site as simple static HTML, JavaScript and CSS files.",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
@@ -4321,7 +4305,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "text": "Add Markdown or React files to `src/pages` to create a standalone page:",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "pageName": "Create a Page"
@@ -4373,23 +4357,21 @@
       "pageName": "Create a Page"
     }
   ],
-  "**Markdown": [
+  "React": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "text": "Add Markdown or React files to `src/pages` to create a standalone page:",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "pageName": "Create a Page"
-    }
-  ],
-  "React**": [
+    },
     {
-      "type": "content",
-      "frequency": 1,
-      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "type": "heading",
+      "depth": 2,
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
+      "heading": "Create your first React Page",
       "pageName": "Create a Page"
     }
   ],
@@ -4397,7 +4379,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "text": "Add Markdown or React files to `src/pages` to create a standalone page:",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "pageName": "Create a Page"
@@ -4416,27 +4398,27 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "text": "Add Markdown or React files to `src/pages` to create a standalone page:",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "pageName": "Create a Page"
     }
   ],
-  "**standalone": [
+  "standalone": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "text": "Add Markdown or React files to `src/pages` to create a standalone page:",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "pageName": "Create a Page"
     }
   ],
-  "page**:": [
+  "page:": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Add **Markdown or React** files to `src/pages` to create a **standalone page**:",
+      "text": "Add Markdown or React files to `src/pages` to create a standalone page:",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "pageName": "Create a Page"
@@ -4512,16 +4494,6 @@
       "pageName": "Create a Page"
     }
   ],
-  "React": [
-    {
-      "type": "heading",
-      "depth": 2,
-      "dirName": "tutorial-basics",
-      "fileName": "create-a-page",
-      "heading": "Create your first React Page",
-      "pageName": "Create a Page"
-    }
-  ],
   "`src/pages/my-react-page.js`:": [
     {
       "type": "content",
@@ -4533,40 +4505,11 @@
       "pageName": "Create a Page"
     }
   ],
-  "page": [
+  "http://localhost:3000/my-react-page(http://localhost:3000/my-react-page).": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).",
-      "dirName": "tutorial-basics",
-      "fileName": "create-a-page",
-      "heading": "Create your first React Page",
-      "pageName": "Create a Page"
-    },
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).",
-      "dirName": "tutorial-basics",
-      "fileName": "create-a-page",
-      "heading": "Create your first Markdown Page",
-      "pageName": "Create a Page"
-    },
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
-      "dirName": "tutorial-extras",
-      "fileName": "translate-your-site",
-      "heading": "Start your localized site",
-      "pageName": "Translate your site"
-    }
-  ],
-  "[http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).": [
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).",
+      "text": "A new page is now available at http://localhost:3000/my-react-page(http://localhost:3000/my-react-page).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "heading": "Create your first React Page",
@@ -4584,11 +4527,11 @@
       "pageName": "Create a Page"
     }
   ],
-  "[http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).": [
+  "http://localhost:3000/my-markdown-page(http://localhost:3000/my-markdown-page).": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).",
+      "text": "A new page is now available at http://localhost:3000/my-markdown-page(http://localhost:3000/my-markdown-page).",
       "dirName": "tutorial-basics",
       "fileName": "create-a-page",
       "heading": "Create your first Markdown Page",
@@ -4611,11 +4554,11 @@
       "pageName": "Deploy your site"
     }
   ],
-  "**static-site-generator**": [
+  "static-site-generator": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).",
+      "text": "Docusaurus is a static-site-generator (also called Jamstack(https://jamstack.org/)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
@@ -4625,7 +4568,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).",
+      "text": "Docusaurus is a static-site-generator (also called Jamstack(https://jamstack.org/)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
@@ -4635,17 +4578,17 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).",
+      "text": "Docusaurus is a static-site-generator (also called Jamstack(https://jamstack.org/)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
     }
   ],
-  "**[Jamstack](https://jamstack.org/)**).": [
+  "Jamstack(https://jamstack.org/)).": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).",
+      "text": "Docusaurus is a static-site-generator (also called Jamstack(https://jamstack.org/)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
@@ -4655,7 +4598,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "text": "It builds your site as simple static HTML, JavaScript and CSS files.",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
@@ -4665,19 +4608,28 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "text": "It builds your site as simple static HTML, JavaScript and CSS files.",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
     }
   ],
-  "**static": [
+  "static": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "text": "It builds your site as simple static HTML, JavaScript and CSS files.",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
+      "pageName": "Deploy your site"
+    },
+    {
+      "type": "content",
+      "frequency": 1,
+      "text": "The static files are generated in the `build` folder.",
+      "dirName": "tutorial-basics",
+      "fileName": "deploy-your-site",
+      "heading": "Build your site",
       "pageName": "Deploy your site"
     }
   ],
@@ -4685,7 +4637,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "text": "It builds your site as simple static HTML, JavaScript and CSS files.",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
@@ -4695,7 +4647,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "text": "It builds your site as simple static HTML, JavaScript and CSS files.",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
@@ -4705,17 +4657,17 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "text": "It builds your site as simple static HTML, JavaScript and CSS files.",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
     }
   ],
-  "files**.": [
+  "files.": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "It builds your site as simple **static HTML, JavaScript and CSS files**.",
+      "text": "It builds your site as simple static HTML, JavaScript and CSS files.",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "pageName": "Deploy your site"
@@ -4733,7 +4685,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Build your site **for production**:",
+      "text": "Build your site for production:",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Build your site",
@@ -4757,42 +4709,11 @@
       "pageName": "Translate your site"
     }
   ],
-  "**for": [
+  "production:": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Build your site **for production**:",
-      "dirName": "tutorial-basics",
-      "fileName": "deploy-your-site",
-      "heading": "Build your site",
-      "pageName": "Deploy your site"
-    },
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
-      "dirName": "tutorial-basics",
-      "fileName": "deploy-your-site",
-      "heading": "Deploy your site",
-      "pageName": "Deploy your site"
-    }
-  ],
-  "production**:": [
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "Build your site **for production**:",
-      "dirName": "tutorial-basics",
-      "fileName": "deploy-your-site",
-      "heading": "Build your site",
-      "pageName": "Deploy your site"
-    }
-  ],
-  "static": [
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "The static files are generated in the `build` folder.",
+      "text": "Build your site for production:",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Build your site",
@@ -4823,7 +4744,7 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "text": "The `build` folder is now served at http://localhost:3000/(http://localhost:3000/).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -4887,7 +4808,7 @@
     {
       "type": "content",
       "frequency": 2,
-      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "text": "The `build` folder is now served at http://localhost:3000/(http://localhost:3000/).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -4907,18 +4828,18 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "text": "The `build` folder is now served at http://localhost:3000/(http://localhost:3000/).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
       "pageName": "Deploy your site"
     }
   ],
-  "[http://localhost:3000/](http://localhost:3000/).": [
+  "http://localhost:3000/(http://localhost:3000/).": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).",
+      "text": "The `build` folder is now served at http://localhost:3000/(http://localhost:3000/).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -4929,29 +4850,29 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
       "pageName": "Deploy your site"
     }
   ],
-  "**almost": [
+  "almost": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
       "pageName": "Deploy your site"
     }
   ],
-  "anywhere**": [
+  "anywhere": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -4962,18 +4883,18 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
       "pageName": "Deploy your site"
     }
   ],
-  "free**": [
+  "free": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -4984,7 +4905,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -4995,7 +4916,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -5006,7 +4927,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -5017,29 +4938,29 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
       "pageName": "Deploy your site"
     }
   ],
-  "**[Deployment": [
+  "Deployment": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
       "pageName": "Deploy your site"
     }
   ],
-  "Guide](https://docusaurus.io/docs/deployment)**).": [
+  "Guide(https://docusaurus.io/docs/deployment)).": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).",
+      "text": "You can now deploy the `build` folder almost anywhere easily, for free or very small cost (read the Deployment Guide(https://docusaurus.io/docs/deployment)).",
       "dirName": "tutorial-basics",
       "fileName": "deploy-your-site",
       "heading": "Deploy your site",
@@ -5121,7 +5042,7 @@
     },
     {
       "type": "content",
-      "frequency": 2,
+      "frequency": 3,
       "text": "Your docs now have 2 versions:",
       "dirName": "tutorial-extras",
       "fileName": "manage-docs-versions",
@@ -5237,7 +5158,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "text": "Your localized site is accessible at http://localhost:3000/fr/(http://localhost:3000/fr/) and the `Getting Started` page is translated.",
       "dirName": "tutorial-extras",
       "fileName": "translate-your-site",
       "heading": "Start your localized site",
@@ -5281,7 +5202,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "`current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**",
+      "text": "`current` at `http://localhost:3000/docs/next/` for the upcoming, unreleased docs",
       "dirName": "tutorial-extras",
       "fileName": "manage-docs-versions",
       "heading": "Create a docs version",
@@ -5292,18 +5213,18 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "`current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**",
+      "text": "`current` at `http://localhost:3000/docs/next/` for the upcoming, unreleased docs",
       "dirName": "tutorial-extras",
       "fileName": "manage-docs-versions",
       "heading": "Create a docs version",
       "pageName": "Manage Docs Versions"
     }
   ],
-  "**upcoming,": [
+  "upcoming,": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "`current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**",
+      "text": "`current` at `http://localhost:3000/docs/next/` for the upcoming, unreleased docs",
       "dirName": "tutorial-extras",
       "fileName": "manage-docs-versions",
       "heading": "Create a docs version",
@@ -5314,18 +5235,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "`current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**",
-      "dirName": "tutorial-extras",
-      "fileName": "manage-docs-versions",
-      "heading": "Create a docs version",
-      "pageName": "Manage Docs Versions"
-    }
-  ],
-  "docs**": [
-    {
-      "type": "content",
-      "frequency": 1,
-      "text": "`current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**",
+      "text": "`current` at `http://localhost:3000/docs/next/` for the upcoming, unreleased docs",
       "dirName": "tutorial-extras",
       "fileName": "manage-docs-versions",
       "heading": "Create a docs version",
@@ -5344,7 +5254,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "![Docs Version Dropdown](./img/docsVersionDropdown.png)",
+      "text": "!Docs Version Dropdown(./img/docsVersionDropdown.png)",
       "dirName": "tutorial-extras",
       "fileName": "manage-docs-versions",
       "heading": "Add a Version Dropdown",
@@ -5598,22 +5508,22 @@
       "pageName": "Translate your site"
     }
   ],
-  "![Docs": [
+  "!Docs": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "![Docs Version Dropdown](./img/docsVersionDropdown.png)",
+      "text": "!Docs Version Dropdown(./img/docsVersionDropdown.png)",
       "dirName": "tutorial-extras",
       "fileName": "manage-docs-versions",
       "heading": "Add a Version Dropdown",
       "pageName": "Manage Docs Versions"
     }
   ],
-  "Dropdown](./img/docsVersionDropdown.png)": [
+  "Dropdown(./img/docsVersionDropdown.png)": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "![Docs Version Dropdown](./img/docsVersionDropdown.png)",
+      "text": "!Docs Version Dropdown(./img/docsVersionDropdown.png)",
       "dirName": "tutorial-extras",
       "fileName": "manage-docs-versions",
       "heading": "Add a Version Dropdown",
@@ -5918,7 +5828,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "text": "Your localized site is accessible at http://localhost:3000/fr/(http://localhost:3000/fr/) and the `Getting Started` page is translated.",
       "dirName": "tutorial-extras",
       "fileName": "translate-your-site",
       "heading": "Start your localized site",
@@ -5959,18 +5869,18 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "text": "Your localized site is accessible at http://localhost:3000/fr/(http://localhost:3000/fr/) and the `Getting Started` page is translated.",
       "dirName": "tutorial-extras",
       "fileName": "translate-your-site",
       "heading": "Start your localized site",
       "pageName": "Translate your site"
     }
   ],
-  "[http://localhost:3000/fr/](http://localhost:3000/fr/)": [
+  "http://localhost:3000/fr/(http://localhost:3000/fr/)": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "text": "Your localized site is accessible at http://localhost:3000/fr/(http://localhost:3000/fr/) and the `Getting Started` page is translated.",
       "dirName": "tutorial-extras",
       "fileName": "translate-your-site",
       "heading": "Start your localized site",
@@ -5981,7 +5891,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "text": "Your localized site is accessible at http://localhost:3000/fr/(http://localhost:3000/fr/) and the `Getting Started` page is translated.",
       "dirName": "tutorial-extras",
       "fileName": "translate-your-site",
       "heading": "Start your localized site",
@@ -5992,7 +5902,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "text": "Your localized site is accessible at http://localhost:3000/fr/(http://localhost:3000/fr/) and the `Getting Started` page is translated.",
       "dirName": "tutorial-extras",
       "fileName": "translate-your-site",
       "heading": "Start your localized site",
@@ -6003,7 +5913,7 @@
     {
       "type": "content",
       "frequency": 1,
-      "text": "Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.",
+      "text": "Your localized site is accessible at http://localhost:3000/fr/(http://localhost:3000/fr/) and the `Getting Started` page is translated.",
       "dirName": "tutorial-extras",
       "fileName": "translate-your-site",
       "heading": "Start your localized site",
@@ -6128,22 +6038,22 @@
       "pageName": "Translate your site"
     }
   ],
-  "![Locale": [
+  "!Locale": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "![Locale Dropdown](./img/localeDropdown.png)",
+      "text": "!Locale Dropdown(./img/localeDropdown.png)",
       "dirName": "tutorial-extras",
       "fileName": "translate-your-site",
       "heading": "Add a Locale Dropdown",
       "pageName": "Translate your site"
     }
   ],
-  "Dropdown](./img/localeDropdown.png)": [
+  "Dropdown(./img/localeDropdown.png)": [
     {
       "type": "content",
       "frequency": 1,
-      "text": "![Locale Dropdown](./img/localeDropdown.png)",
+      "text": "!Locale Dropdown(./img/localeDropdown.png)",
       "dirName": "tutorial-extras",
       "fileName": "translate-your-site",
       "heading": "Add a Locale Dropdown",
