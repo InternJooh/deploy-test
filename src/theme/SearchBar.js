@@ -132,8 +132,9 @@ function SearchModal({ recentRef, favoriteRef, favoriteList, setFavoriteList, se
 }
 
 function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavoriteList, searchList, setSearchList, setSearchText, isSearchOpen, setIsSearchOpen, modalRef }) {
+  console.log('calling search history')
+  
   useEffect(() => {
-    console.log('SearchList or FavoriteList changed:', searchList, favoriteList);
   }, [searchList, favoriteList]);
 
   const history = useHistory();
