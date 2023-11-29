@@ -132,10 +132,19 @@ function SearchModal({ recentRef, favoriteRef, favoriteList, setFavoriteList, se
 }
 
 function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavoriteList, searchList, setSearchList, setSearchText, isSearchOpen, setIsSearchOpen, modalRef }) {
-  console.log('calling search history')
-  
+  const [currentSearchList, setCurrentSearchList] = useState([]);
+  const [currentFavoriteList, setCurrentFavoriteList] = useState([]);
+
   useEffect(() => {
-  }, [searchList, favoriteList]);
+  setCurrentSearchList(searchList);
+  }, [searchList]);
+
+  useEffect(() => {
+  setCurrentFavoriteList(favoriteList);
+  }, [favoriteList]);
+
+  useEffect(() => {
+  }, [currentSearchList, currentFavoriteList]);
 
   const history = useHistory();
   const [lastHovered, setLastHovered] = useState(0);
