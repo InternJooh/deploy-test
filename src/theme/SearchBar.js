@@ -23,11 +23,8 @@ export default function SearchBarWrapper() {
       const storedSearchList = localStorage.getItem('searchList');
       const storedFavoriteList = localStorage.getItem('favoriteList');
 
-      // Check if localStorage is available (in the browser)
-      if (storedSearchList && storedFavoriteList) {
-        setSearchList(JSON.parse(storedSearchList) || []);
-        setFavoriteList(JSON.parse(storedFavoriteList) || []);
-      }
+      setSearchList(JSON.parse(storedSearchList) || []);
+      setFavoriteList(JSON.parse(storedFavoriteList) || []);
     };
 
     initializeState();
@@ -132,20 +129,6 @@ function SearchModal({ recentRef, favoriteRef, favoriteList, setFavoriteList, se
 }
 
 function SearchHistory({ inputRef, recentRef, favoriteRef, favoriteList, setFavoriteList, searchList, setSearchList, setSearchText, isSearchOpen, setIsSearchOpen, modalRef }) {
-  const [currentSearchList, setCurrentSearchList] = useState([]);
-  const [currentFavoriteList, setCurrentFavoriteList] = useState([]);
-
-  useEffect(() => {
-  setCurrentSearchList(searchList);
-  }, [searchList]);
-
-  useEffect(() => {
-  setCurrentFavoriteList(favoriteList);
-  }, [favoriteList]);
-
-  useEffect(() => {
-  }, [currentSearchList, currentFavoriteList]);
-
   const history = useHistory();
   const [lastHovered, setLastHovered] = useState(0);
   const [deletedIdx, setDeletedIdx] = useState(0);
